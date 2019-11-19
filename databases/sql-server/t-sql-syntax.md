@@ -1,2 +1,0 @@
-# T-SQL Syntax
-
