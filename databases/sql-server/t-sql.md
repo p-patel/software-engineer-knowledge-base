@@ -2,7 +2,7 @@
 
 ## Syntax
 
-## Features
+## Features
 - CTEs
 - Sub queries
 - Derived tables
