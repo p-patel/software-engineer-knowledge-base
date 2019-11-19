@@ -24,3 +24,21 @@ https://app.pluralsight.com/library/courses/sqlserver-query-plan-analysis
 - Common Operators
 - Noteworthy Patterns
 
+# Capturing Query Execution Plans
+- Various methods available to capture a query execution plan
+- Not all methods are equivalent (some even incur significant overhead)
+
+## Capturing a Plan
+- Estimated plan (compile)
+- `SET SHOWPLAN_TEXT` / `SET SHOWPLAN_ALL`
+- `SET SHOWPLAN_XML`
+- Graphical Showplan
+
+- Actual plan (runtime)
+- `SET STATISTICS PROFILE`
+- `SET STATISTICS XML`
+- Graphical Showplan
+
+## Demo: Capturing a Plan
+
+
