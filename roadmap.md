@@ -1,6 +1,6 @@
 ROADMAP
 
-# CompSci
+# COMPSCI
 ## Maths
 ### Linear Algebra
 ### Calculus
@@ -8,7 +8,10 @@ ROADMAP
 ## Algorithms & Data Structures
 - Big Oh, Little Oh
 
-# Full Stack .NET Developer
+# FULL STACK .NET DEVELOPER
+
+
+
 ## .NET
 
 ### .NET Framework
@@ -29,6 +32,6 @@ ROADMAP
 # AI & ML
 ## Neural Networks
 
-# Piano
+# PIANO
 ## Reading Music
 ## Piano Theory
