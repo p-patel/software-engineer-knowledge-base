@@ -17,24 +17,3 @@ ROADMAP
 ### Frequently-Used Libraries
 #### Axios
 #### React-Bootstrap
-
-
-# SERVER-SIDE (FULL STACK .NET DEVELOPER)
-
-## .NET
-
-### .NET Framework
-#### MVC
-#### API
-
-### .NET Core
-#### MVC
-#### API
-
-### Logging
-#### ILogger framework
-#### Serilog
-#### ELK stack
-
-
-
