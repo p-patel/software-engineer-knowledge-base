@@ -39,8 +39,5 @@ ROADMAP
 # AI & ML
 ## Neural Networks
 
-# PIANO
-## Reading Music
-## Piano Theory
 
 
