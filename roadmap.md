@@ -8,9 +8,18 @@ ROADMAP
 ## Algorithms & Data Structures
 - Big Oh, Little Oh
 
-# FULL STACK .NET DEVELOPER
+# CLIENT-SIDE (FULL STACK .NET DEVELOPER)
+
+## React
+
+### React Hooks
+### React-Redux
+### Frequently-Used Libraries
+#### Axios
+#### React-Bootstrap
 
 
+# SERVER-SIDE (FULL STACK .NET DEVELOPER)
 
 ## .NET
 
@@ -27,11 +36,11 @@ ROADMAP
 #### Serilog
 #### ELK stack
 
-## React
-
 # AI & ML
 ## Neural Networks
 
 # PIANO
 ## Reading Music
 ## Piano Theory
+
+
