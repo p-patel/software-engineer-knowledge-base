@@ -36,8 +36,5 @@ ROADMAP
 #### Serilog
 #### ELK stack
 
-# AI & ML
-## Neural Networks
-
 
 
