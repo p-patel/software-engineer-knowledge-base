@@ -43,10 +43,31 @@ Server:
 
 ### Installing Build Tools
 - Git repo requires Maven to build app (install using brew/Chocolatey)
+- Git required too
 
+### Manually Compiilng an Application
+- `mvn compile`
 
+### Manually Testing an Application
+- `mvn test`
 
+### Manually Package an Application
+- package to deploy or archive for historical purposes
+- `mvn package` (generates `.war` file for Java applications)
+- for Ruby (gem), .NET (zip/nuget), JS (bundle/minified file)
 
+### Automating Builds
+- easily track issues in a build back to a particular commit in the repo
+- steps to automate: clone repo (in TC workspace), compile, test, package
+
+### Creating a TeamCity Project and Build Configuration
+- Workspace within the context of a build agent
+- Create a project from a repo URL
+- Build Configurations are a template of the build steps to be performed automatically
+- Projects ("folders"), Build Configurations ("individual files")
+- TC auto-detects build steps based on the connected repo! (selet desired steps)
+
+### Detecting Build Tools
 
 
 
