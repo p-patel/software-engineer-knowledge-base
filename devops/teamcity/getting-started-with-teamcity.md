@@ -77,18 +77,37 @@ Server:
 - Within build section there are two main areas: 'Build Configuration Home' and 'Edit Configuration Settings'
 
 ### The Build Log
-- View Build Log to see the build steps activity on the Build Agent
+- View Build Log to see the build steps activity on the Build Agent (logs collapsed into related sections)
 
+### The Checkout Directory
+- The checkout directory is a directory in the Build Agent's workspace
+- Used when a build is run
 
+### Cleaning Between Builds
+- Avoid reusing build artefacts between builds
+- Clean during build
 
+### Capturing Packages as Artefacts
+- Change Maven build step from 'compile' to 'package' to package Java app
+- Packages can be archived for deployment and to keep an archive of builds
+- In 'Build Configuration Settings' | 'General Settings', the 'Artifact paths' input can be used to specify paths to keep as artefacts from builds (can use wildcards to specify paths)
+- Artefacts 'View' link is provided for each build to view the build artefacts (can also push artefacts out to Artefactory)
 
+### Quizzery
+1. Build error: 'Exit code 1'.  Check the build log for the particular build number to identify the issue
+2. How do you view the current bulid status after it is run if not redirected automatically? Go to 'Build Configuration Home'
+3. How do you go to the root of all projects in TeamCity? Click 'Projects'
+4. On the project overview page, what represents the **build configuration**? The line under the project 'directory'
+5. On the project overview page, what represents the **project**? The project 'directory'
+6. On the project overview page, what represents the **build result**? The line number with the build number
+7. On the project overview page, what represents the **output of a build**? The 'Artefacts' link
 
+## Automating Builds for Fast Feedback
 
+### Module Overview
+- Robust automated build process has now been created.  But the build currently needs to be manually run each time
+- Will automate running builds, look at reporting test results and providing notifications to avoid having to come into TeamCity unless there are errors.
 
-
-
-
-
-
-
+### .NET Library Build Steps
+...
 
