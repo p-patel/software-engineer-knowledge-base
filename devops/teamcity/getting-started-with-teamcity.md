@@ -68,6 +68,24 @@ Server:
 - TC auto-detects build steps based on the connected repo! (selet desired steps)
 
 ### Detecting Build Tools
+- Restart build agent to update ENV VARS after installing build tools on it `Restart-Service TCBuildAgent`
+- Log files available on TC Server and build agents
+- Set up Build Tasks within Build Configuration
+
+### Running A Build
+- Click 'Run' to run build
+- Within build section there are two main areas: 'Build Configuration Home' and 'Edit Configuration Settings'
+
+### The Build Log
+- View Build Log to see the build steps activity on the Build Agent
+
+
+
+
+
+
+
+
 
 
 
