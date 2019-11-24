@@ -124,10 +124,8 @@ Server:
 - View Build Log tab to see the commands run during the Nuget Restore Build
 
 ### Adding a Second Build Step for MSBuild
-
-
-
-
+...
+- Run recently falied tests first
 
 
 
