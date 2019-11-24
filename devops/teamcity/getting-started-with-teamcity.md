@@ -124,8 +124,48 @@ Server:
 - View Build Log tab to see the commands run during the Nuget Restore Build
 
 ### Adding a Second Build Step for MSBuild
+- Rerun Autd-detect build steps; TC should detect 'Visual Studio (sln)' step.  Ensure this step is after the Nuget Restore step
+- Select VS.NET version to use to build
+- On run 'No enabled compatible agents for this build configuration' error.  Need to install MSBuild on the build agent (and then restart build agent!) (see 'Agent Requirenents' in 'Build Configuration Settings'
+- Queued build job will run once the Build Agent has restarted and a compatible agent becomes available
+- View build log of the build result to see MSBuild was run
+
+### Running Unit Tests with NUnit
+- Add Build Step to run unit tests using Runner Type 'NUnit' and set 'NUnit runner' to select required NUnit version 
+- Set path to dll containing tests
+- Additional configuration: include/exclude test categories; run recently failed tests first
+- Build Results provides summary of test results
+
+### Rich Test Reporting
+- See 'Tests' tab of the Build Results which provides filters
+- Shortcut: use `P` key for a pop-up of TC projects
+- View the history a specific test across builds by looking at 'Test History' of a specific test within the Build Results | Tests.  Also Build log available for an individual test within a Build Result.
+- At the Build Configuration level the 'Statistics' tab will provide statistics over a range of builds to see trends over time (e.g. build duration, test count, artefacts sizes etc.)
+- All above provides fast feedback, especially at the individual test level
+
+### Automated Code Coverage Reports
+- As part of the the Test step, set '.NET Coverage tool' (e.g. dotCover which is bundled with TeamCity)
+- In the Build Step, 'Running Step' gives live feedback of steps as they run
+- 'Code Coverage' **be careful not** to use code coverage as a metric to set a minimum required % BUT code coverage can be useful to identify new test cases for areas of the code which are not tested.
+- Adding features to the build process will augment the 'Overview' of the Build Results
+
+### Triggering Builds on Code Changes
+- Automatically start builds based on conditions
+- Go to Build Configuration Settings | Triggers | Add new Trigger.  A 'VCS Trigger' will add a build on every check-in
+- Other trigger options: scheduled, dependencies updates and many others
+- Can specify a branch filter to be used by the trigger
+- `git commit -am "commit message"` commits all changes
+- Build will be triggered on the push of the commit to the repo
+
+### Notifications
+- Notifications are set up on a **user level** not per build configuration
 ...
-- Run recently falied tests first
+
+
+
+
+
+
 
 
 
