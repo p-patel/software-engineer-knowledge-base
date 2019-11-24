@@ -105,9 +105,35 @@ Server:
 ## Automating Builds for Fast Feedback
 
 ### Module Overview
-- Robust automated build process has now been created.  But the build currently needs to be manually run each time
+- Robust automated build process has now been created.  But currently the build needs to be manually run each time
 - Will automate running builds, look at reporting test results and providing notifications to avoid having to come into TeamCity unless there are errors.
 
 ### .NET Library Build Steps
-...
+- .NET Library build steps: Nuget Restore, MSBuild, NUnit tests, Nuget Pack
+
+### Restoring NuGet Dependencies
+- Create a new Build Configuration for the .NET library build
+- Auto-detected Build Steps heuristics can be unreliable, e.g. may not detect the Nuget Restore step
+- Add New Build Step runner type: 'NuGet Installer' (these are plugins).  Each type is a wrapper around a Command Line command
+- Tools | Install Tool | NuGet.exe | Select a version (this installs NuGet on Build Agent and restarts the Build Agent) (use Install Tool to install tools required for Build Steps)
+- Select version of NuGet.exe to use in the Build Step
+- Set path to Solution File (used to detect Nuget packages to restore)
+- Also see 'Show Advanced Options' to see more options for the Nuget Restore Build Step
+- Save and run build
+- In Build Result the Nuget Packages tab list the nuget package versions being used for all dependencies
+- View Build Log tab to see the commands run during the Nuget Restore Build
+
+### Adding a Second Build Step for MSBuild
+
+
+
+
+
+
+
+
+
+
+
+
 
