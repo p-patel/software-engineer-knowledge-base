@@ -8,7 +8,7 @@
 
 ### TeamCity
 ### GitLab (CI)
-
+### MSBuild
 
 ## CD
 ### Features
@@ -17,6 +17,9 @@
 ### Tools
 ### GitLab (CD)
 ### Octopus Deploy
+#### Octopus Deploy Concepts
+- Projects, Variables, Lifecycles, Channels, Releases
+
 ### Spinnaker
 
 ## Scripting
