@@ -1,6 +1,12 @@
 
 # FULL STACK .NET DEVELOPER (CLIENT-SIDE)
 
+## JavaScript
+### ES5
+### ES6
+### TypeScript
+
+
 ## React
 
 ### React Hooks
@@ -10,7 +16,7 @@
 #### React-Bootstrap
 
 ## Angular.JS
-## Concepts - https://docs.angularjs.org/guide
+### Concepts - https://docs.angularjs.org/guide
 ### HTML Compiler - https://docs.angularjs.org/guide/compiler
 - "teach the browser new HTML syntax" (custom directives - DSL for custom app)
 
