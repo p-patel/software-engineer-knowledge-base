@@ -2,8 +2,13 @@
 
 ## .NET
 
+### C#
+- Generics
+- LINQ
+- Extension Methods
+- ...
+
 ### .NET Framework
-#### Advanced C#
 #### Advanced .NET Framework
 #### MVC
 #### API
