@@ -30,3 +30,4 @@
 - https://stackoverflow.com/questions/24615103/angular-directives-when-and-how-to-use-compile-controller-pre-link-and-post
 
 ## Angular 2+
+- Angular 8 Ivy https://blog.ninja-squad.com/2019/05/07/what-is-angular-ivy/
