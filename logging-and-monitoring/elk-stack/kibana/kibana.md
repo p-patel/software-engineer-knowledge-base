@@ -1,0 +1,3 @@
+# Kibana
+
+- Kibana queries
