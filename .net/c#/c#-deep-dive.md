@@ -5,4 +5,4 @@
 
 
 ## Features
-- async / await
+- async / await vs concurrency vs parallelism
