@@ -1,4 +1,4 @@
 # C# Deep Dive
 
-## Books
-- 
+## Books / Resources
+- IAmTimCorrey - YouTube
