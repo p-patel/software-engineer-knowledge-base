@@ -18,7 +18,17 @@
 #### MVC
 #### API
 
+### Testing
+- NUnit
+- XUnit
+- Moq
+
 ### Logging
 #### ILogger framework
 #### Serilog
 #### ELK stack
+
+### Useful Libraries
+- AutoMapper
+- SimpleInjector
+- Json.NET
