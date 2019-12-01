@@ -8,7 +8,8 @@
 
 
 ## React
-
+### Concepts
+- Virtual DOM
 ### React Hooks
 ### React-Redux
 ### Frequently-Used Libraries
