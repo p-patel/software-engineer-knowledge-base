@@ -2,3 +2,7 @@
 
 ## Books / Resources
 - IAmTimCorrey - YouTube
+
+
+## Features
+- async / await
