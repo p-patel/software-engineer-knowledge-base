@@ -18,3 +18,7 @@ https://app.pluralsight.com/library/courses/building-async-api-aspdotnet-core/
 ### Model Binding
 - Use `[ApiController]` attribute to set controller as an API controller and enable model binding on requests
 - Model binding will then attempt to bind data in the request to controller action parameters
+
+### Implementing POST
+- Use AutoMapper to map bound model to Entity and then to create model to return to client of the saved Entity
+- POST returns status 201, created URI and created object on success (Use Link Generator to generate newly created resource's URI)
