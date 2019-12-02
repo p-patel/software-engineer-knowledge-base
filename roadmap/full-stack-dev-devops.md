@@ -9,6 +9,8 @@
 ### TeamCity
 ### GitLab (CI)
 ### MSBuild
+### Build Agents
+- Use Chocolatey to consistently set up build agents with build tools
 
 ## CD
 ### Features
