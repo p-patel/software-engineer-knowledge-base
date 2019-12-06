@@ -2,3 +2,8 @@
 ## Resources
 - http://powershellprimer.com/html/0001.html
 - https://blog.netwrix.com/2018/02/21/windows-powershell-scripting-tutorial-for-beginners/
+- https://www.darkoperator.com/powershellbasics
+- https://blog.netwrix.com/2018/02/21/windows-powershell-scripting-tutorial-for-beginners/
+- https://www.varonis.com/blog/windows-powershell-tutorials/
+- https://www.howtogeek.com/141495/geek-school-writing-your-first-full-powershell-script/
+- https://www.computerworld.com/article/2879205/powershell-for-beginners-scripts-and-loops.html
