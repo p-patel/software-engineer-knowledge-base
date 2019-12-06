@@ -19,3 +19,6 @@
 - https://stackoverflow.com/questions/13602508/where-to-find-microsoft-visualstudio-testtools-unittesting-missing-dll
 - https://stackoverflow.com/questions/20259076/type-or-namespace-name-visualstudio-does-not-exist-in-the-namespace-microsoft
 - https://community.atlassian.com/t5/Bamboo-questions/Having-troubles-building-my-solution-with-MSTests-on-Bamboo/qaq-p/160542
+- https://build.bitcoinabc.org/app/dsl-documentation/jetbrains.build-server.configs.kotlin.v10.build-steps/-m-s-test-step/mstest-path.html
+- https://social.msdn.microsoft.com/Forums/en-US/0e3b2039-a4f8-49fb-a6ed-dfa785410204/how-can-i-use-mstestexe-tool-that-not-install-vs?forum=vstscode
+- https://stackoverflow.com/questions/2375481/where-is-mstest-exe-located
