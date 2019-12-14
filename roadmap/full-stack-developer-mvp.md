@@ -27,7 +27,10 @@
 ## DevOps
 - Git
 - TeamCity
+- GitLab pipelines
 - Octopus Deploy
+- MSBuild, VS.NET SDK
+- MSTest, NUnit, VSTestAgent
 - Cake
 - Config transforms
 
