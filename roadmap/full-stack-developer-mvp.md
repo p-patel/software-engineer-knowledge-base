@@ -9,12 +9,17 @@
 - Chrome Developer Tools
 
 ## Server-Side
-- C#: advanced language features. NuGet
-- .NET Framework: MVC, API
-- .NET Core: MVC, API
-- OpenAPI / Swashbuckle
-- RabbitMQ
-- Go
+### C#
+- Advanced language features
+- Fluent syntax
+- NuGet
+- EF and domain model design
+
+### .NET Framework: MVC, API
+### .NET Core: MVC, API
+### OpenAPI / Swashbuckle
+### RabbitMQ
+### Go
 
 ## Data Persistance
 - SQL Server
@@ -35,8 +40,11 @@
 - Config transforms
 
 ## Infrastructure
-- AWS
-- Docker
+### IIS
+- App Pool, Worker Process - https://www.c-sharpcorner.com/UploadFile/225740/introduction-to-application-pool-in-iis/
+
+### AWS
+### Docker
 
 ## Scripting
 - Bash
