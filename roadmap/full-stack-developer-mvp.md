@@ -38,6 +38,9 @@
 - MSTest, NUnit, VSTestAgent
 - Cake
 - Config transforms
+### Deploying Common Apps
+- .NET Framework - Console, WinForms, Windows Service, MVC, Web API
+- .NET Core - Console, WinForms, Service, MVC, Web API
 
 ## Infrastructure
 ### IIS
