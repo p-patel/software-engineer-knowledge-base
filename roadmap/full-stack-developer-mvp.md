@@ -13,7 +13,7 @@
 - Advanced language features
 - Fluent syntax
 - NuGet
-- EF and domain model design
+- EF (fluent syntax and model relationships) and domain model design
 
 ### .NET Framework: MVC, API
 ### .NET Core: MVC, API
