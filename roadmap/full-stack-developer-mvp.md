@@ -25,6 +25,8 @@
   - References and importing namespaces
   - Referencing and using e.g. System.Configuration
   - Using .NET Standard / .NET Core packages
+- Postman
+- Fiddler
 
 ## Data Persistance
 - SQL Server
