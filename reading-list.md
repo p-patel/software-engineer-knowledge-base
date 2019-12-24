@@ -31,7 +31,6 @@
 - http://web.pdx.edu/~nauna/week7b-neuralnetwork.pdf
 
 ## Other
-- review https://github.com/jamiebuilds/the-super-tiny-compiler, https://the-super-tiny-compiler.glitch.me/
 - see "129 videos" saved article on reddit
 - "solving systems of polynomial equations" reddit
 - "what every developer should learn early on" reddit
