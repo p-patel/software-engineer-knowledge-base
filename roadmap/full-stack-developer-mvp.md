@@ -22,6 +22,9 @@
 ### Go
 ### Tools
 - LINQPad
+  - References and importing namespaces
+  - Referencing and using e.g. System.Configuration
+  - Using .NET Standard / .NET Core packages
 
 ## Data Persistance
 - SQL Server
