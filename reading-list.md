@@ -36,4 +36,4 @@
 ## Other
 - see "129 videos" saved article on reddit
 - "what every developer should learn early on" reddit
-- https://www.youtube.com/watch?v=zQE1K074v3s
+- https://www.youtube.com/watch?v=zQE1K074v3s - How Graphics Worked on the Gameboy
