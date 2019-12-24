@@ -9,6 +9,7 @@
 ### TeamCity
 ### GitLab (CI)
 ### MSBuild
+- obj/, bin/ directories
 ### Build Agents
 - Use Chocolatey to consistently set up build agents with build tools
 
