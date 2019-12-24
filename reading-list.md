@@ -2,6 +2,9 @@
 
 - https://blog.codinghorror.com/your-favorite-programming-quote/
 
+## Maths
+- "solving systems of polynomial equations" reddit
+
 ## CompSci
 - Grokking Algorithms (pdf)
 
@@ -32,6 +35,5 @@
 
 ## Other
 - see "129 videos" saved article on reddit
-- "solving systems of polynomial equations" reddit
 - "what every developer should learn early on" reddit
 - https://www.youtube.com/watch?v=zQE1K074v3s
