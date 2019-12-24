@@ -33,8 +33,10 @@
 - MongoDB
 
 ## Platform
-- SeriLog
-- ELK Stack
+### SeriLog
+### ELK Stack
+#### Kibana
+- Kibana queries
 
 ## DevOps
 - Git
