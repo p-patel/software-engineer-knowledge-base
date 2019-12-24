@@ -20,6 +20,8 @@
 ### OpenAPI / Swashbuckle
 ### RabbitMQ
 ### Go
+### Tools
+- LINQPad
 
 ## Data Persistance
 - SQL Server
