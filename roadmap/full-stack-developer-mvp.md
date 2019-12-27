@@ -1,19 +1,22 @@
 # Full Stack Developer MVP
 
-
 ## .NET Full-stack Dev Interview Readiness
 - Coding Inteview Questions
 
 ## Client-Side
-- JavaScript
+### JavaScript
+- ES5
+- ES6
 - React
 - Angular.JS / Angular
+### Other Client-Side Frameworks & Libraries
 - Bootstrap
 - CSS
 - Chrome Developer Tools
 
 ## Server-Side
 ### C#
+- C#1 - C#8
 - Advanced language features
 - Fluent syntax
 - NuGet
@@ -45,8 +48,10 @@
 ## DevOps
 - Git
 - TeamCity
-- GitLab pipelines
-- Octopus Deploy
+- GitLab (inc. pipelines)
+### Octopus Deploy
+- Deployments: Console app, WebForms app, Web app, WCF Service, Microservice (.NET, .NET Core)
+
 - MSBuild, VS.NET SDK
 - MSTest, NUnit, VSTestAgent
 - Cake
