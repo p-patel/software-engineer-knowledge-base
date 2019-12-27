@@ -70,3 +70,10 @@
 ## Scripting
 - Bash
 - PowerShell
+
+## CompSci
+### Algorithms
+
+### Data Structures
+
+### Well-Known Problems
