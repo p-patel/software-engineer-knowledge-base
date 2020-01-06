@@ -12,3 +12,6 @@
 
 ## Implementating OO
 - Requires a heap in addition to an execution stack
+- Object memory, object functions point to functions in class code; class code
+- Compare data and functions organisation in source code of different OO languages
+- Explore how inherited function is implemented in memory in run-time environment
