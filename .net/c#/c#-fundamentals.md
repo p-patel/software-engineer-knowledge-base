@@ -85,6 +85,6 @@ https://app.pluralsight.com/course-player?clipId=a378cd76-5548-4933-8f1c-b233c7b
 - handling an event - this is calling the methods added to the delegate invocation list using the `+=` operator
 - use `-=` operator to remove methods to the event delegate
 
-
-
+## Summary
+- Added additional field and member types: properties, delegates, events
 
