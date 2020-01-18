@@ -100,6 +100,19 @@ https://app.pluralsight.com/course-player?clipId=a378cd76-5548-4933-8f1c-b233c7b
 - use `base` to reference base class, e.g. `: base()`
 
 ## Deriving from System.Object
+- Every class you derive in .NET has a base class
+- `object` keyword maps to System.Object
+
+## Setting up a Scenario
+- book objects will use polymorphism to provide different storage implementations within the method `book.AddGrade(grade)`
+
+## Defining an Abstract class
+- define an abstract class with abstract methods
+- use `override` to indicate implementation of an inherited method
+
+## Defining an Interface
+
+
 
 
 
