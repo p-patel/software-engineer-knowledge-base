@@ -90,3 +90,16 @@ https://app.pluralsight.com/course-player?clipId=a378cd76-5548-4933-8f1c-b233c7b
 
 # Object-oriented Programming With C#
 
+## The Pillars of OOP
+- Encapsultion, Inheritance, Polymorphism
+
+## Deriving from a Base Class
+- Members of a base class are inherited by the derived class
+
+## Chaining Constructors
+- use `base` to reference base class, e.g. `: base()`
+
+## Deriving from System.Object
+
+
+
