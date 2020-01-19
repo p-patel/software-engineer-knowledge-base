@@ -129,3 +129,7 @@ using (var writer = File.AppendText("file.txt")
 ```
 compiler will place the code in the `using` block in a try-catch block and call `Dispose()` on the resource in the compiler-generated finally block to guarantee that the resource is always disposed at the end of the execution of the `using` block
 
+## A Statistical Challenge
+
+
+
