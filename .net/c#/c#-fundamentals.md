@@ -91,7 +91,7 @@ https://app.pluralsight.com/course-player?clipId=a378cd76-5548-4933-8f1c-b233c7b
 # Object-oriented Programming With C#
 
 ## The Pillars of OOP
-- Encapsultion, Inheritance, Polymorphism
+- Encapsultion, Inheritance, Polymorphism (static vs dynamic polymorphism)
 
 ## Deriving from a Base Class
 - Members of a base class are inherited by the derived class
@@ -108,11 +108,24 @@ https://app.pluralsight.com/course-player?clipId=a378cd76-5548-4933-8f1c-b233c7b
 
 ## Defining an Abstract class
 - define an abstract class with abstract methods
+- use `virtual` to indicate an implementation can be overridden in a subclass
 - use `override` to indicate implementation of an inherited method
+- cf. `new` modifier for inherited methods
 
 ## Defining an Interface
+- only defines members of the type, without any implementation (future versions of C# will allow some implementation to be provided)
+- interfaces are more common than abstract classes in the .NET Framework
 
+## Writing Grades to a File
+- implement `DiskBook` class that writes the grade to a file within the method `AddGrade(double grade)`
 
-
-
+## Using IDisposable
+- releasing unmanaged resources
+```
+using (var writer = File.AppendText("file.txt")
+{
+  writer.WriteLine(grade);
+}
+```
+compiler will place the code in the `using` block in a try-catch block and call `Dispose()` on the resource in the compiler-generated finally block to guarantee that the resource is always disposed at the end of the execution of the `using` block
 
