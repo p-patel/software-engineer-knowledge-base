@@ -113,7 +113,7 @@ GETTING STARTED WITH ENTITY FRAMEWORK 6
 - Projections covered next...
 
 ## Projection Queries
-
+- Specify properties in the LINQ select clause to define a custom projection that does not map to the data object shape.  This is returned as a .NET anonymous type
 
 
 
