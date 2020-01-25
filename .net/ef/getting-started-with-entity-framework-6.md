@@ -71,7 +71,59 @@ GETTING STARTED WITH ENTITY FRAMEWORK 6
 - EF Team Blog: blogs.msdn.com/adonet
 
 # Creating a Code-based Model and Database
-- 
+## What's In This Module?
+- CRUD using objects
+- Querying using Find and SQLQuery
+- Working with Graphs of Related Data
+- Project Queries
+
+## Inserting Objects
+- Use `Add()` \ `AddRange()` to add domain objects against a DbSet of a DbContext
+- `context.Database.Log` property used to configure logging
+- `Database.SetInitializer(new NullDatabaseInitializer<NinjaContext>())` to disable database initialisation by EF (useful for production environments)
+- EF will add each new object using a separate `INSERT` db query, third-party libs available to improve performance by inserting objects in a single query
+- SQL Profiler / EF Profiler tools
+
+## Querying Simple Objects
+- Query DbSet of a DbContext
+- Query using LINQ methods or LINQ syntax
+- LINQ queries with hard-coded queries will produce SQL queries with hard-coded query conditions, LINQ queries with parameters will produce parameterised SQL
+- Enumerating a query in a `foreach` will execute the query, NB. the db connection will remain open for the entire `foreach` code block so minimise the code in this block
+
+## Updating Modified Objects
+- Update object in connected model, then call `context.SaveChanges()`
+- Update object in disconnected model, then use context.Entry(object).State` to set objects state, otherwise a DbContext will not be able to identify an object retrieved using a different DbContext has been modified
+
+## Retrieving Data with the Find and SqlQuery Methods
+- `.Find(keyval)` looks for object using the key field, will not query the db if the matching object already exists in DbContext (`Find()` uses `SingleOrDefault()` to query objects) 
+- `context.SomeObject.SqlQuery()` to run queries/sprocs (returned data must match object shape)
+
+## Deleting Simple Objects
+- `Remove()` sets an objects to be deleted when `context.SaveChanges()` is called
+- In disconnected model, use `dbContext.Entry(object).State` to set object state to delete an object. This requires querying the db for a record, just to set the object for deletion
+- Alternatively, `context.Database.ExecuteSqlCommand()` - a sproc is used and a key value provided. Note `context.Database` is used to execute sql command here, not a DbContext's DbSet
+
+## Inserting Related Data
+- Set related object properties, EF will track and save the related object data in the db according to the defined model
+
+## Loading Related Data
+- Eager loading - specify related model objects to always load using `DbSet.Include()`
+- Explicit loading - load related model objects explicitly using `context.Entry(object).Collection(i => i.ObjectProperty).Load();`
+- Lazy loading - set property that is to be lazily loaded to be `virtual`.  EF will overload the class property to load property data when required by model queries. **This requires performance analysis as the queries can become expensive**
+- Projections covered next...
+
+## Projection Queries
+
+
+
+
+
+
+
+
+
+
+
 
 
 
