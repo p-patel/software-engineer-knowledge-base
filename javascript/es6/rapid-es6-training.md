@@ -30,7 +30,9 @@ ES5 to review:
 - `let` variables and `const` values are block scoped
 
 ## Arrow functions
-
+- No parentheses required if only one parameter
+- Parentheses required if zero or more than one parameter
+- `return` required to return a value if block is used to defind arrow function
 - in ES5, `this` in a function handling an event will evaluate to the object on which the event occurred, not the context of the function handling the event
 - in ES6, `this` in an arrow function handling an event will evaluate to the context of the event handler function instead
 - in ES5, `this` in an object's function will evaluate to the object
@@ -38,7 +40,7 @@ ES5 to review:
 - in ES6, cannot use `bind()` to change the context of an arrow function. `bind()` will be ignored silently. sames goes for `call()` and `apply()`.  With arrow functions you cannot change the value of `this`
 - in ES6, arrow functions do not have a prototype field
 
-
+## Default Function Parameters
 
 
 
