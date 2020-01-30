@@ -44,6 +44,38 @@ ES5 to review:
 
 
 
+# ES6 Modules and Classes
+## Introduction and Setup
+- ES6 transpilers - Traceur, Babel
+- ES6 module loader
+- `System.import(./base.js);` - no longer need to list every js file in the html file
+
+## Module Basics
+- using `import`, `export`:
+```
+import { projectValue } from 'project.js'; // in base.js
+export let projectValue = 99 // in project.js
+```
+- import statements are hoisted and executed before other expressions in js files
+- every module can have upto 1 default export and can be imported using `import` without `{}`:
+```
+import project from 'project.js`; // in base.js
+export default let projectValue = 99; // in project.js
+```
+- import multiple exports from a module in a single statement:
+`import { projectName, projectValue } from 'project.js'; // in base.js`
+```
+// in project.js
+export let projectName = 'someProjectName';
+export let projectValue = 99;
+```
+- can also use `{}` to specify an alias when importing a module default
+- `import { project as proj } from 'project.js; // 'project' alias will now no longer work;`
+- import all exports as a single object:
+```
+???
+```
+
 
 
 
