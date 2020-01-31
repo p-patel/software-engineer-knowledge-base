@@ -3,8 +3,11 @@ Rapid ES6 Training - https://app.pluralsight.com/library/courses/rapid-es6-train
 ES5 to review:
 - hoisting
 - closures
-- bind()
+- bind() / call()
 - strict mode
+- constructor function
+- prototype property
+- `window` is global scope / variable in browsers (cf. Node.js)
 
 
 # Introduction
@@ -127,6 +130,9 @@ console.log(project.getProjectValue);
 export function showProject = function() { console.log("in original"); }
 export updateFunction = function() { showProject = function() { console.log("in updated"); }; };
 ```
+
+## Class Fundamentals
+- new `class` keyword, works similar to the constructor function in ES5
 
 
 
