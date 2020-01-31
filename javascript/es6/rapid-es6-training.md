@@ -3,7 +3,7 @@ Rapid ES6 Training - https://app.pluralsight.com/library/courses/rapid-es6-train
 ES5 to review:
 - hoisting
 - closures
-- bind() / call()
+- this, bind() / call() / apply() - https://medium.com/@omergoldberg/javascript-call-apply-and-bind-e5c27301f7bb
 - strict mode
 - constructor function
 - prototype property
@@ -132,7 +132,21 @@ export updateFunction = function() { showProject = function() { console.log("in 
 ```
 
 ## Class Fundamentals
-- new `class` keyword, works similar to the constructor function in ES5
+- new `class` keyword, new way to work with constructor functions and object prototypes
+- `class` definition can be assigned to a variable and then called
+```
+let task = class Task { }
+let newTask = new task();
+```
+
+
+- cannot use `,` between class member declarations (unlike ES5 object literals)
+- cannot declare variables within a class definition (use properties, static properties)
+- functions defined globally are defined on the `window` object, classes are not
+
+
+
+
 
 
 
