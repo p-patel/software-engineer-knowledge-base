@@ -4,6 +4,7 @@ ES5 to review:
 - hoisting
 - closures
 - bind()
+- strict mode
 
 
 # Introduction
