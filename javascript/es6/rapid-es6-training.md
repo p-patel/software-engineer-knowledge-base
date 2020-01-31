@@ -72,13 +72,61 @@ export let projectValue = 99;
 ```
 - can also use `{}` to specify an alias when importing a module default
 - `import { project as proj } from 'project.js; // 'project' alias will now no longer work;`
-- import all exports as a single object:
+- import all module exports as a single object
 ```
-???
+import * as projStuff from 'project.js' // in base.js
 ```
 
+## Named Exports in Modules
+- cannot update the value of a named exported variable
+```
+// in base.js
+import { projectValue } from 'project.js' 
+projectValue = 100; // error!
 
+// in project.js
+export let projectValue = 99;
+```
+- can change the value of a named exported object's property in base.js
+```
+// in base.js
+import { project } from 'project.js' 
+project.projectValue = 100;
+console.log(project.projectValue);
 
+// in project.js
+export let project = { 
+  projectValue = 99,
+  projectName = "projectName"
+  }
+```
+- can access the changed value of a named exported object's property in the module it was exported from
+```
+// in base.js
+import { project } from 'project.js' 
+project.projectValue = 100;
+console.log(project.projectValue);
+console.log(project.getProjectValue);
+
+// in project.js
+export let project = { 
+  projectValue = 99,
+  projectName = "projectName",
+  getProjectValue = function() { return this.projectValue; }
+  }
+```
+- can change the value of a named exported function in the module it was exported from and access the updated function using the named export in the calling module
+```
+// in base.js
+import { project } from 'project.js' 
+project.projectValue = 100;
+console.log(project.projectValue);
+console.log(project.getProjectValue);
+
+// in project.js
+export function showProject = function() { console.log("in original"); }
+export updateFunction = function() { showProject = function() { console.log("in updated"); }; };
+```
 
 
 
