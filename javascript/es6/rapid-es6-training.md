@@ -133,16 +133,36 @@ export updateFunction = function() { showProject = function() { console.log("in 
 
 ## Class Fundamentals
 - new `class` keyword, new way to work with constructor functions and object prototypes
-- `class` definition can be assigned to a variable and then called
+- `class` expression can be assigned to a variable and then called
 ```
 let task = class Task { }
 let newTask = new task();
 ```
+- the value of a `class` expression is `function`
+- `instanceof` keyword used to check type of an object
+- can use function shorthand to define class methods (i.e. no need to use the `function` keyword in a class method definition)
+- class `constructor` method
+- class definitions are not hoisted
+- cannot use `,` between class member declarations (unlike in ES5 object literals)
+- methods defined within a class are added to the class object's prototype
 
-
-- cannot use `,` between class member declarations (unlike ES5 object literals)
 - cannot declare variables within a class definition (use properties, static properties)
+- cannot call `call()` function on a class to change the `this` object 
+```
+class Task {
+  constructor() {
+    console.log("constructing Task");
+  }
+};
+
+let task = {};
+Task.call(task);  // error!
+```
 - functions defined globally are defined on the `window` object, classes are not
+
+## extends and super
+
+
 
 
 
