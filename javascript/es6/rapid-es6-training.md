@@ -161,7 +161,7 @@ Task.call(task);  // error!
 - functions defined globally are defined on the `window` object, classes are not
 
 ## extends and super
-
+- `extends` keyword used to specify super class type
 
 
 
