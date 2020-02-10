@@ -6,7 +6,7 @@ ES5 to review:
 - this, bind() / call() / apply() - https://medium.com/@omergoldberg/javascript-call-apply-and-bind-e5c27301f7bb
 - strict mode
 - constructor function
-- prototype property
+- prototypal inheritance
 - `window` is global scope / variable in browsers (cf. Node.js)
 
 
@@ -161,8 +161,36 @@ Task.call(task);  // error!
 - functions defined globally are defined on the `window` object, classes are not
 
 ## extends and super
+- ES6 continues to use prototypal inheritance
 - `extends` keyword used to specify super class type
+- `extends` sets the prototype of the defined type
+- `constructor` defines constructor method
+- super class constructor will be automatically called if constructor is not defined in the sub class
+- any arguments pass to subclass constructor are automatically passed to super class constructor when subclass does not define a constructor
+- must call `super();` in subclass constructor if it exists
+- use `super.` prefix in subclass method to access methods defined in super class
+- cf. `Object.setPrototypeOf(subClassObj, superClassObj);`
 
+
+
+```
+class Y {
+  constructor() {
+    console.log("do something");
+    }
+}
+
+class X extends Y {
+  constructor() {
+    super();
+    this.val = 1;
+    }
+    
+  doSomething() {
+    }
+}
+
+```
 
 
 
