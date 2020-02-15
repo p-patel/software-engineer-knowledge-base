@@ -6,10 +6,13 @@
 
 ## Mathematical Programming
 ### Maths problems
-- Euler site
+- References: Euler site and similar, Mathematical programming books
 - Trigonometry problems
 - Probability problems
-- Particle physics
+- Linear algebra problems
+- Numerical optimisation problems
+- Other maths areas - what are they?
+- Particle physics problems
 
 ## SciComp Methods
 ### Monte Carlo Markov Chain
