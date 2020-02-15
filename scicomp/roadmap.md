@@ -12,6 +12,7 @@
 - Linear algebra problems
 - Numerical optimisation problems
 - Other maths areas - what are they?
+  - graphs, coloured graphs
 - Particle physics problems
 
 ## SciComp Methods
