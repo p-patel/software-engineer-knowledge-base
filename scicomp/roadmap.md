@@ -17,6 +17,10 @@
   - graphs, coloured graphs
 - Particle physics problems
 
+### Mathematical Programming Techniques
+- Euler Method
+
+
 ## SciComp Methods
 ### Monte Carlo Markov Chain
 ### Numerical Methods
