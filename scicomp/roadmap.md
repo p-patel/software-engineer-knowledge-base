@@ -23,5 +23,6 @@
 
 ## SciComp Methods
 ### Monte Carlo Markov Chain
-### Numerical Methods
+### Simulations
+### Numerical Optimisation / Numerical Methods
 ### High Performance Computing
