@@ -1,7 +1,7 @@
 # Study Plan: ES6 Fundamentals
 
 ## Learning Outcomes
-- A solid foundation in ES6 using a TDD approach
+- A solid foundation in ES6 for front/back-end development using a TDD approach
 
 ## Topics & Material
 - https://app.pluralsight.com/guides/introduction-to-test-driven-development-in-javascript
