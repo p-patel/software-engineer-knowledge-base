@@ -28,7 +28,7 @@ http://bit.ly/TechTalkFeb20
 - Host Your Own Race
 http://bit.ly/CreateVirtualRace
 - Other Resources:
-http://www.deepracterleague.com
+http://www.deepracerleague.com
 http://bit.ly/DRBootCamp
 http://join.deepracing.io
 https://blog.deepracing.io
