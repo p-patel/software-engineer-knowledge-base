@@ -27,13 +27,13 @@ http://bit.ly/DeepRacer2020Lab
 http://bit.ly/TechTalkFeb20
 - Host Your Own Race
 http://bit.ly/CreateVirtualRace
-- Other Resources:
-http://www.deepracerleague.com
-http://bit.ly/DRBootCamp
-http://join.deepracing.io
-https://blog.deepracing.io
-http://bit.ly/DeepRacerVideoCourse
-http://bit.ly/BuildATrack
-http://bit.ly/BuyADeepRacer
+### Other Resources:
+- http://www.deepracerleague.com
+- http://bit.ly/DRBootCamp
+- http://join.deepracing.io
+- https://blog.deepracing.io
+- http://bit.ly/DeepRacerVideoCourse
+- http://bit.ly/BuildATrack
+- http://bit.ly/BuyADeepRacer
 
 
