@@ -192,6 +192,24 @@ class X extends Y {
 
 ```
 
+# New Types and Object Extensions
+## Symbols
+- New type in ES6
+- `let sym = Symbol('symbol-key');` creates a new symbol with the specified key
+- Use a Symbol when a value guaranteed to be unique is required
+- Symbol can be retrieved by key but it's value can never be known
+- `let s = Symbol.for('symbol-key')` registers a Symbol with the specified key or returns it if it already exists
+- `Symbol.keyFor(s)` returns the key for the specified Symbol
+- Commonly used to define a unique object property name
+- `Object.getOwnPropertyNames()` \ `Object.getOwnPropertySymbols()`
+
+## Well-known Symbols
+- `Symbol.toStringTag`
+- `Symbol.concatSpreadable`
+- `Symbol.toPrimitive`
+- MDN provides well-known Symbols reference (not supported by all browsers!) - https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Symbol
+
+
 
 
 
