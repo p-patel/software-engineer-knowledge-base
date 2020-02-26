@@ -205,7 +205,7 @@ class X extends Y {
 
 ## Well-known Symbols
 - `Symbol.toStringTag`
-- `Symbol.concatSpreadable`
+- `Symbol.isConcatSpreadable`
 - `Symbol.toPrimitive`
 - MDN provides well-known Symbols reference (not supported by all browsers!) - https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Symbol
 
