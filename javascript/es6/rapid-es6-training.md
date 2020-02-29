@@ -3,6 +3,7 @@ Rapid ES6 Training - https://app.pluralsight.com/library/courses/rapid-es6-train
 ES5 to review:
 - hoisting
 - closures
+- IIFEs
 - this, bind() / call() / apply() - https://medium.com/@omergoldberg/javascript-call-apply-and-bind-e5c27301f7bb
 - strict mode
 - constructor function
