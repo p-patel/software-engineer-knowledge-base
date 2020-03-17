@@ -1,6 +1,6 @@
 Rapid ES6 Training - https://app.pluralsight.com/library/courses/rapid-es6-training/table-of-contents
 
-ES5 to review:
+# ES5 To Review
 - hoisting
 - closures
 - IIFEs
@@ -9,6 +9,7 @@ ES5 to review:
 - constructor function
 - prototypal inheritance
 - `window` is global scope / variable in browsers (cf. Node.js)
+- https://jscomplete.com/learn-javascript
 
 
 # Introduction
