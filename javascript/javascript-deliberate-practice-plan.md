@@ -9,6 +9,7 @@
 - constructor function
 - prototypal inheritance
 - `window` is global scope / variable in browsers (cf. Node.js)
+- module formats, loaders and bundlers
 - https://jscomplete.com/learn-javascript
 
 ## ES6
