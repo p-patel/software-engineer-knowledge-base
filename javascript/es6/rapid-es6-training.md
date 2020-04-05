@@ -1,17 +1,5 @@
 Rapid ES6 Training - https://app.pluralsight.com/library/courses/rapid-es6-training/table-of-contents
 
-# ES5 To Review
-- hoisting
-- closures
-- IIFEs
-- this, bind() / call() / apply() - https://medium.com/@omergoldberg/javascript-call-apply-and-bind-e5c27301f7bb
-- strict mode
-- constructor function
-- prototypal inheritance
-- `window` is global scope / variable in browsers (cf. Node.js)
-- https://jscomplete.com/learn-javascript
-
-
 # Introduction
 ## Introduction
 ## An ES6 Compatibility Chart
