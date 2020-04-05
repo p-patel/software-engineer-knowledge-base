@@ -15,5 +15,6 @@
 - Rapid ES6 Training - https://www.pluralsight.com/courses/rapid-es6-training
 
 ## Literature
+- JavaScript: The Good Parts
 - Eloquent JavaScript - https://eloquentjavascript.net/
 - The JS Way - https://github.com/thejsway/thejsway
