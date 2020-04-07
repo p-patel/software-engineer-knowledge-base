@@ -15,6 +15,16 @@
 ## ES6
 - Rapid ES6 Training - https://www.pluralsight.com/courses/rapid-es6-training
 
+## React
+### Common Web app functionality
+- Unit testing & TDD with Jest
+- Async HTTP requests
+- TBC...
+
+## JS Exercises
+- https://exercism.io/my/tracks/javascript
+- https://js.checkio.org/
+
 ## Literature
 - JavaScript: The Good Parts
 - Eloquent JavaScript - https://eloquentjavascript.net/
