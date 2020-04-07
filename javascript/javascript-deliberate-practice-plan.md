@@ -1,6 +1,6 @@
 # JavaScript Deliberate Practice Plan
 
-## ES5 To Review
+## INPUT ES5 To Review
 - hoisting
 - closures
 - IIFEs
@@ -13,15 +13,15 @@
 - https://jscomplete.com/learn-javascript
 
 ## ES6
-- Rapid ES6 Training - https://www.pluralsight.com/courses/rapid-es6-training
+- INPUT Rapid ES6 Training - https://www.pluralsight.com/courses/rapid-es6-training
 
 ## React
-### Common Web app functionality
+### OUTPUT ReactDemos: Common Web app functionality
 - Unit testing & TDD with Jest
 - Async HTTP requests
 - TBC...
 
-## JS Exercises
+## OUTPUT JS Exercises
 - https://exercism.io/my/tracks/javascript
 - https://js.checkio.org/
 
