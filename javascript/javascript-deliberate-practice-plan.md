@@ -1,5 +1,9 @@
 # JavaScript Deliberate Practice Plan
 
+## Goals
+- Fluent in ES5/ES6 and apply best practices
+- Able to start tackling full stack apps using just JavaScript
+
 ## ES5
 ### INPUT: ES5 Features
 - js modules  
