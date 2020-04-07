@@ -1,6 +1,26 @@
 # JavaScript Deliberate Practice Plan
 
 ## ES5
+### INPUT: ES5 Features
+- js modules
+https://medium.com/@crohacz_86666/basics-of-modular-javascript-2395c82dd93a
+https://www.intricatecloud.io/2020/02/creating-a-simple-npm-library-to-use-in-and-out-of-the-browser/
+https://krasimirtsonev.com/blog/article/javascript-library-starter-using-webpack-es6
+https://app.pluralsight.com/library/courses/javascript-module-fundamentals/table-of-contents
+https://web.archive.org/web/20120826205255/http://blog.brianbeck.com/post/10667967423/node-js-require-in-the-browser
+https://tylermcginnis.com/javascript-modules-iifes-commonjs-esmodules/
+- module formats and module loaders
+  https://www.davidbcalhoun.com/2014/what-is-amd-commonjs-and-umd/
+  https://dev.to/iggredible/what-the-heck-are-cjs-amd-umd-and-esm-ikm
+  https://www.jvandemo.com/a-10-minute-primer-to-javascript-modules-module-formats-module-loaders-and-module-bundlers/
+  es6 modules
+- Node modules
+  CommonJS - https://blog.risingstack.com/node-js-at-scale-module-system-commonjs-require/
+  https://itnext.io/deep-dive-into-node-js-module-architecture-b80fbd22dacb				
+- module bundlers
+  Browserify
+  Webpack
+
 ### OUTPUT: ES5 Demos
 - hoisting
 - closures
