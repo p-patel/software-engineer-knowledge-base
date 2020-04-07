@@ -19,4 +19,4 @@
 - JavaScript: The Good Parts
 - Eloquent JavaScript - https://eloquentjavascript.net/
 - The JS Way - https://github.com/thejsway/thejsway
-- Crockford on JavaScript - https://www.youtube.com/playlist?list=PL7664379246A246CB
+- Crockford on JavaScript (video series) - https://www.youtube.com/playlist?list=PL7664379246A246CB
