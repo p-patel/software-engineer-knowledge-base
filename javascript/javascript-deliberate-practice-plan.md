@@ -1,6 +1,7 @@
 # JavaScript Deliberate Practice Plan
 
-## INPUT ES5 To Review
+## ES5
+### OUTPUT: ES5 Demos
 - hoisting
 - closures
 - IIFEs
@@ -13,10 +14,39 @@
 - https://jscomplete.com/learn-javascript
 
 ## ES6
-- INPUT Rapid ES6 Training - https://www.pluralsight.com/courses/rapid-es6-training
+### INPUT: Rapid ES6 Training
+- https://www.pluralsight.com/courses/rapid-es6-training
+### OUPUT: ES6 Demos - feature demos (using React/Node)
+- modules, imports, exports
+  export/import primitive values, functions, objects
+- source maps
+  webpack
+- arrow functions
+  create arrow functions in a module
+- default parameters
+  create function / arrow function with default parameters
+- rest/spread
+  handle function parameters using rest/spread
+- object literal extensions
+- for...of loop
+  implement iteration using for...of
+- template literals
+  use strings using template literals
+- destructuring
+- class
+  create classes
+  create class hierachy
+
+- iterator, generator
+- input events
+  create input event handlers
+- promises
+  handle async calls with Promise object
+- debouncing
+  create debouncer
 
 ## React
-### OUTPUT ReactDemos: Common Web app functionality
+### OUTPUT: ReactDemos: Common Web app functionality
 - Unit testing & TDD with Jest
 - Async HTTP requests
 - TBC...
