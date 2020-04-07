@@ -32,7 +32,7 @@ https://tylermcginnis.com/javascript-modules-iifes-commonjs-esmodules/
 - es5 modules (in the browser) with a module bundler
 - https://jscomplete.com/learn-javascript
 
-### JS Basic Physics Demos
+### OUTPUT: ES5 Basic Physics Demos
 - basic particles
 
 ## ES6
