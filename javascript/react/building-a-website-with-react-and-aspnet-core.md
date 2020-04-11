@@ -77,7 +77,20 @@ https://app.pluralsight.com/courses/28d4cdc7-0756-46ca-be70-abef05ec970f/table-o
 - the client WebPack config still creates the JS bundle as before (which is used on the client to render the root div tag in the blank HTML page sent to the client)
 
 ### Implementing Server Side Rendering and URL Validation
-- 
+- Client-side rendering serves the html file and client JS bundle which are used by the browser to render the page on the client
+- SSR will use Express to handle incoming requests and render the page html on the server using Node and React.  The rendered page html will then be served back to the client along with the appropriate http resopnse status (e.g. 200, 404)
+- SSR is handled by a separate Server.js bundle which has its own server WebPack config
+
+###  Using ReactDOM.renderToString to Generate the Static HTML
+- Handilng the request/response using Express inside Server.js, uses a Renderer module to render the incoming request
+- Renderer.js renders the React parent node using the React static router and returns the rendered page html (if requested route exists) and http response status
+- Create server WebPack config to create SSR bundle
+- Client.js change from using `ReactDOM.render()` to `ReactDOM.hydrate()` (**check the technical details of the difference**)
+- add npm scripts commands to build client bundle, build server bundle and run server bundle (Express server)
+- running SSR server will now render the page on the server and serve fully rendered page to the client (*to test request page in browser with JavaScript disabled*)
+
+### Integrating React With ASP.NET Core
+
 
 
 
