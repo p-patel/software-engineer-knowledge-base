@@ -29,7 +29,7 @@ https://tylermcginnis.com/javascript-modules-iifes-commonjs-esmodules/
 - hoisting
 - closures
 - IIFEs
-- this, bind() / call() / apply() - https://medium.com/@omergoldberg/javascript-call-apply-and-bind-e5c27301f7bb
+- this, assign() / bind() / call() / apply() - https://medium.com/@omergoldberg/javascript-call-apply-and-bind-e5c27301f7bb
 - constructor function
 - prototypal inheritance
 - `window` is global scope / variable in browsers (cf. Node.js)
