@@ -30,4 +30,5 @@ https://files.eric.ed.gov/fulltext/ED518599.pdf
 - Maths Cheatsheet - http://tutorial.math.lamar.edu/extras/cheatsheets_tables.aspx
 
 ### Books
+- Calculus Made Easy - https://www.gutenberg.org/files/33283/33283-pdf.pdf
 - Introduction to Probability - https://drive.google.com/file/d/1VmkAAGOYCTORq1wxSQqy255qLJjTNvBI/view
