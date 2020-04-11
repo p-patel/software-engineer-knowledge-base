@@ -16,6 +16,7 @@ https://files.eric.ed.gov/fulltext/ED518599.pdf
 
 ## Courses
 - Canadian University Math Prerequisites - https://www.youtube.com/channel/UCmAUuVxguXIddAXgmFjePAA
+
 - PreAlgebra - https://www.youtube.com/watch?v=cC7n_ZyVUns&list=PL4C9296DF81B9EF13
 - Intermediate Algebra - https://www.youtube.com/watch?v=9OOrhA2iKak&list=PLDesaqWTN6ESsmwELdrzhcGiRhk5DjwLP
 - Precalculus (Algebra/Trigonometry) - https://www.youtube.com/watch?v=9OOrhA2iKak&list=PLDesaqWTN6ESsmwELdrzhcGiRhk5DjwLP
@@ -24,8 +25,9 @@ https://files.eric.ed.gov/fulltext/ED518599.pdf
 - Calculus 2 - https://www.youtube.com/playlist?list=PLDesaqWTN6EQ2J4vgsN1HyBeRADEh4Cw-
 - Calculus 3 - https://www.youtube.com/playlist?list=PLDesaqWTN6ESk16YRmzuJ8f6-rnuy0Ry7
 - Differential Equations - https://www.youtube.com/playlist?list=PLDesaqWTN6ESPaHy2QUKVaXNZuQNxkYQ_
-
 - Full list of playlists - https://www.youtube.com/user/professorleonard57/playlists
+
+- Maths Cheatsheet - http://tutorial.math.lamar.edu/extras/cheatsheets_tables.aspx
 
 ### Books
 - Introduction to Probability - https://drive.google.com/file/d/1VmkAAGOYCTORq1wxSQqy255qLJjTNvBI/view
