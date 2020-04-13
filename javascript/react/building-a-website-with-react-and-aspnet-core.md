@@ -90,9 +90,11 @@ https://app.pluralsight.com/courses/28d4cdc7-0756-46ca-be70-abef05ec970f/table-o
 - running SSR server will now render the page on the server and serve fully rendered page to the client (*to test request page in browser with JavaScript disabled*)
 
 ### Integrating React With ASP.NET Core
-
-
-
+- create asp.net core mvc web app to host JS SPA web app
+- copy Client app to wwwroot directory of mvc web app
+- install npm packages npm-run-all, rimraf, cpx
+- create node run commands to bundle client JS app, clear wwwroot directory, cp JS web app to wwwroot directory and a single command to all of these as a single step
+- look at minifying js, e.g. using webpack uglify
 
 
 
