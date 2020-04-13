@@ -1,7 +1,7 @@
 # Building a Website with React and ASP.NET Core
 https://app.pluralsight.com/courses/28d4cdc7-0756-46ca-be70-abef05ec970f/table-of-contents
 
-## Course Overvieww
+## Course Overview
 - Building a React app using Webpack
 - Building a React app using `create-react-app` (CRA)
 - Implementing REST calls
