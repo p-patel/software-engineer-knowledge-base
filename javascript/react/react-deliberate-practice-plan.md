@@ -12,6 +12,12 @@
 - Advanced React.js (select most interesting modules) - https://app.pluralsight.com/courses/0a257931-38e4-4cd4-8813-ceecba43b7f9/table-of-contents
 - https://dev.to/jsco/how-to-build-bulletproof-react-components-mo7
 
+### React Deep-Dive
+- https://pomb.us/build-your-own-react/
+- https://overreacted.io/
+- https://reactjs.org/docs/codebase-overview.html
+- https://www.reactiflux.com/
+
 ## OUTPUT ReactDemos
 - TDD using Jest
 - React / ASP.NET Core prootype app deployable to prod
