@@ -23,6 +23,20 @@ https://tylermcginnis.com/javascript-modules-iifes-commonjs-esmodules/
   - Module bundlers  
   Browserify  
   Webpack
+- closures
+  - JS closures
+    - https://developer.mozilla.org/en-US/docs/Web/JavaScript/Closures
+    - https://www.codingame.com/playgrounds/6516/closures-in-javascript-for-beginners
+    - https://medium.com/javascript-scene/master-the-javascript-interview-what-is-a-closure-b2f0d2152b36
+    - https://javascript.info/closure
+
+  - C# closure
+    - https://web.archive.org/web/20150707082707/http://diditwith.net/PermaLink,guid,235646ae-3476-4893-899d-105e4d48c25b.aspx
+    - https://csharpindepth.com/articles/Closures
+
+  - Closure Theory
+    - https://martinfowler.com/bliki/Lambda.html
+
 
 ### OUTPUT: ES5 Demos
 - strict mode
