@@ -1,26 +1,14 @@
 # Maths Fundamentals Deliberate Practice Plan
 
-## Maths Learning Techniques
-### Books
-A Mind For Numbers - Barbara Oakley
-
-### Compact PDFs of Strategies
-https://www.macalester.edu/max/wp-content/uploads/sites/120/2013/10/HowtoRead.pdf  
-https://www.rit.edu/studentaffairs/asc/sites/rit.edu.studentaffairs.asc/files/docs/services/resources/How%20to%20Read%20a%20Math%20Textbook%20.pdf
-
-### A Great Thread
-https://math.stackexchange.com/questions/279079/how-to-read-a-book-in-mathematics?newreg=fb05728415464b4b8f8b048ea1b21616
-
-### An Article for Brave Souls
-https://files.eric.ed.gov/fulltext/ED518599.pdf
-
 ## Courses
 - Canadian University Math Prerequisites - https://www.youtube.com/channel/UCmAUuVxguXIddAXgmFjePAA
 
 - PreAlgebra - https://www.youtube.com/watch?v=cC7n_ZyVUns&list=PL4C9296DF81B9EF13
 - Intermediate Algebra - https://www.youtube.com/watch?v=9OOrhA2iKak&list=PLDesaqWTN6ESsmwELdrzhcGiRhk5DjwLP
 - Precalculus (Algebra/Trigonometry) - https://www.youtube.com/watch?v=9OOrhA2iKak&list=PLDesaqWTN6ESsmwELdrzhcGiRhk5DjwLP
-- Calculus 1 - https://www.youtube.com/playlist?list=PLF797E961509B4EB5
+- Calculus 1
+  - https://www.youtube.com/playlist?list=PLF797E961509B4EB5
+  - https://www.youtube.com/channel/UCu7lohtMPJWRSGgFxEpNBHg?view_as=public
 - Statistics - https://www.youtube.com/playlist?list=PL5102DFDC6790F3D0
 - Calculus 2 - https://www.youtube.com/playlist?list=PLDesaqWTN6EQ2J4vgsN1HyBeRADEh4Cw-
 - Calculus 3 - https://www.youtube.com/playlist?list=PLDesaqWTN6ESk16YRmzuJ8f6-rnuy0Ry7
