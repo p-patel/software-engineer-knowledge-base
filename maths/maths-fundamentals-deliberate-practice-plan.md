@@ -6,6 +6,7 @@
 - PreAlgebra - https://www.youtube.com/watch?v=cC7n_ZyVUns&list=PL4C9296DF81B9EF13
 - Intermediate Algebra - https://www.youtube.com/watch?v=9OOrhA2iKak&list=PLDesaqWTN6ESsmwELdrzhcGiRhk5DjwLP
 - Precalculus (Algebra/Trigonometry) - https://www.youtube.com/watch?v=9OOrhA2iKak&list=PLDesaqWTN6ESsmwELdrzhcGiRhk5DjwLP
+- Intro to derivatives - https://www.youtube.com/watch?v=ov1sSFDPVZ4&list=PL2IR9KC7mNVkYC6Ic7KaPUwXXY8n1U3BI
 - Calculus 1
   - https://www.youtube.com/playlist?list=PLF797E961509B4EB5
   - https://www.youtube.com/channel/UCu7lohtMPJWRSGgFxEpNBHg?view_as=public
@@ -14,6 +15,7 @@
 - Calculus 3 - https://www.youtube.com/playlist?list=PLDesaqWTN6ESk16YRmzuJ8f6-rnuy0Ry7
 - Differential Equations - https://www.youtube.com/playlist?list=PLDesaqWTN6ESPaHy2QUKVaXNZuQNxkYQ_
 - Full list of playlists - https://www.youtube.com/user/professorleonard57/playlists
+- Real Analysis - https://www.youtube.com/playlist?list=PLmU0FIlJY-MngWPhBDUPelVV3GhDw_mJu
 
 - Maths Cheatsheet - http://tutorial.math.lamar.edu/extras/cheatsheets_tables.aspx
 
