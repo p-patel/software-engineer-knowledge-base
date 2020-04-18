@@ -10,6 +10,7 @@
 https://24ways.org/2014/javascript-modules-the-es6-way/  
 https://medium.com/@crohacz_86666/basics-of-modular-javascript-2395c82dd93a  
 https://www.intricatecloud.io/2020/02/creating-a-simple-npm-library-to-use-in-and-out-of-the-browser/  
+https://medium.com/@thejasonfile/a-simple-intro-to-javascript-imports-and-exports-389dd53c3fac  
 https://krasimirtsonev.com/blog/article/javascript-library-starter-using-webpack-es6  
 https://app.pluralsight.com/library/courses/javascript-module-fundamentals/table-of-contents  
 https://web.archive.org/web/20120826205255/http://blog.brianbeck.com/post/10667967423/node-js-require-in-the-browser  
