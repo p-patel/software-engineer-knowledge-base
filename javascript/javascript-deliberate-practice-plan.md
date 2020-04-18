@@ -61,6 +61,9 @@ https://tylermcginnis.com/javascript-modules-iifes-commonjs-esmodules/
 ## ES6
 ### INPUT: Rapid ES6 Training
 - https://www.pluralsight.com/courses/rapid-es6-training
+- Reactive programming - https://gist.github.com/staltz/868e7e9bc2a7b8c1f754
+
+
 ### OUPUT: ES6 Demos - feature demos (using React/Node)
 - modules, imports, exports
   export/import primitive values, functions, objects
