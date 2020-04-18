@@ -43,6 +43,9 @@ https://tylermcginnis.com/javascript-modules-iifes-commonjs-esmodules/
   - https://michael-kuehnel.de/api/2016/11/04/data-mocking-ways-to-fake-a-backend-api.html  
 - Debugging JS
   - https://hackernoon.com/please-stop-using-console-log-its-broken-b5d7d396cf15
+  - use watches in dev tools
+    - https://stackoverflow.com/questions/47127260/debugging-with-console-log-is-there-shorthand-to-output-a-variable-and-its-valu
+    - https://developers.google.com/web/tools/chrome-devtools/javascript/watch-variables
 
 ### OUTPUT: ES5 Demos
 - strict mode
