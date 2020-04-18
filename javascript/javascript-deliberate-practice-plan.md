@@ -41,7 +41,8 @@ https://tylermcginnis.com/javascript-modules-iifes-commonjs-esmodules/
 - JavaScript Testing
   - https://wanago.io/2018/09/17/javascript-testing-tutorial-part-four-mocking-api-calls-and-simulating-react-components-interactions/  
   - https://michael-kuehnel.de/api/2016/11/04/data-mocking-ways-to-fake-a-backend-api.html  
-
+- Debugging JS
+  - https://hackernoon.com/please-stop-using-console-log-its-broken-b5d7d396cf15
 
 ### OUTPUT: ES5 Demos
 - strict mode
