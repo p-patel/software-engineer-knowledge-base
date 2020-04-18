@@ -38,7 +38,7 @@ https://tylermcginnis.com/javascript-modules-iifes-commonjs-esmodules/
 
   - Closure Theory
     - https://martinfowler.com/bliki/Lambda.html
- - JavaScript Testing
+- JavaScript Testing
   - https://wanago.io/2018/09/17/javascript-testing-tutorial-part-four-mocking-api-calls-and-simulating-react-components-interactions/  
   - https://michael-kuehnel.de/api/2016/11/04/data-mocking-ways-to-fake-a-backend-api.html  
 
