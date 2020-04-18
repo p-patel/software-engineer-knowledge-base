@@ -6,7 +6,8 @@
 
 ## ES5
 ### INPUT: ES5 Features
-- js modules  
+- js modules
+https://24ways.org/2014/javascript-modules-the-es6-way/  
 https://medium.com/@crohacz_86666/basics-of-modular-javascript-2395c82dd93a  
 https://www.intricatecloud.io/2020/02/creating-a-simple-npm-library-to-use-in-and-out-of-the-browser/  
 https://krasimirtsonev.com/blog/article/javascript-library-starter-using-webpack-es6  
