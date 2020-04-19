@@ -71,6 +71,8 @@ https://tylermcginnis.com/javascript-modules-iifes-commonjs-esmodules/
 - https://www.pluralsight.com/courses/rapid-es6-training
 - arrow / lambda functions
   - https://www.vinta.com.br/blog/2015/javascript-lambda-and-arrow-functions/
+- class
+  - https://medium.com/@luke_smaki/javascript-es6-classes-8a34b0a6720a
 - Reactive programming
   - https://gist.github.com/staltz/868e7e9bc2a7b8c1f754
   - https://samueleresca.net/reactive-programming-damn-it-is-not-about-reactjs/
