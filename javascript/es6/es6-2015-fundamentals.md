@@ -12,5 +12,10 @@
 - `let`, `const`
 - `import`
 - arrow functions
+- object literals
+  - http://www.benmvp.com/learning-es6-enhanced-object-literals/
+  - https://www.javascripttutorial.net/es6/object-literal-extensions/
+  - https://codepen.io/bradleyboy/post/getting-to-know-es6-object-literals
 - async/await
   - https://www.freecodecamp.org/news/javascript-from-callbacks-to-async-await-1cc090ddad99/
+
