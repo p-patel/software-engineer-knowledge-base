@@ -31,13 +31,16 @@ https://tylermcginnis.com/javascript-modules-iifes-commonjs-esmodules/
     - https://www.codingame.com/playgrounds/6516/closures-in-javascript-for-beginners
     - https://medium.com/javascript-scene/master-the-javascript-interview-what-is-a-closure-b2f0d2152b36
     - https://javascript.info/closure
-
   - C# closure
     - https://web.archive.org/web/20150707082707/http://diditwith.net/PermaLink,guid,235646ae-3476-4893-899d-105e4d48c25b.aspx
     - https://csharpindepth.com/articles/Closures
-
   - Closure Theory
     - https://martinfowler.com/bliki/Lambda.html
+- Event loop
+  - https://developer.mozilla.org/en-US/docs/Web/JavaScript/EventLoop
+  - https://medium.com/front-end-weekly/javascript-event-loop-explained-4cd26af121d4
+  - https://flaviocopes.com/javascript-event-loop/
+  - 
 - JavaScript Testing
   - https://wanago.io/2018/09/17/javascript-testing-tutorial-part-four-mocking-api-calls-and-simulating-react-components-interactions/  
   - https://michael-kuehnel.de/api/2016/11/04/data-mocking-ways-to-fake-a-backend-api.html  
@@ -66,6 +69,8 @@ https://tylermcginnis.com/javascript-modules-iifes-commonjs-esmodules/
 ## ES6
 ### INPUT: Rapid ES6 Training
 - https://www.pluralsight.com/courses/rapid-es6-training
+- arrow / lambda functions
+  - https://www.vinta.com.br/blog/2015/javascript-lambda-and-arrow-functions/
 - Reactive programming
   - https://gist.github.com/staltz/868e7e9bc2a7b8c1f754
   - https://samueleresca.net/reactive-programming-damn-it-is-not-about-reactjs/
@@ -77,7 +82,7 @@ https://tylermcginnis.com/javascript-modules-iifes-commonjs-esmodules/
   export/import primitive values, functions, objects
 - source maps
   webpack
-- arrow functions
+- arrow / lambda functions
   create arrow functions in a module
 - default parameters
   create function / arrow function with default parameters
