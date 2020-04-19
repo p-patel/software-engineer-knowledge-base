@@ -78,6 +78,10 @@ https://tylermcginnis.com/javascript-modules-iifes-commonjs-esmodules/
   - https://samueleresca.net/reactive-programming-damn-it-is-not-about-reactjs/
   - https://www.reddit.com/r/javascript/comments/6xcqpl/noob_question_is_reactive_programming_like_in/
   - https://www.pluralsight.com/courses/7f022dab-7de2-481e-8968-8916a1c24d9d
+- testing
+  - unit testing
+    - mocking fetch requests
+      - https://medium.com/@luke_smaki/javascript-es6-classes-8a34b0a6720a
 
 ### OUPUT: ES6 Demos - feature demos (using React/Node)
 - modules, imports, exports
