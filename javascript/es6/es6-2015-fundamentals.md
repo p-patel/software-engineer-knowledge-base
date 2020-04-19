@@ -19,3 +19,6 @@
 - async/await
   - https://www.freecodecamp.org/news/javascript-from-callbacks-to-async-await-1cc090ddad99/
 
+## ES6 Webpack Project
+- https://www.sitepoint.com/es6-babel-webpack/
+- demo project - https://github.com/svinkle/getting-started-with-webpack-and-es6-modules-the-demo
