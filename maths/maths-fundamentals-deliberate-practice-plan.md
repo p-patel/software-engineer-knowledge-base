@@ -22,6 +22,7 @@
 ### Books
 - Calculus Made Easy - https://www.gutenberg.org/files/33283/33283-pdf.pdf
 - Introduction to Probability - https://drive.google.com/file/d/1VmkAAGOYCTORq1wxSQqy255qLJjTNvBI/view
+- Calculus - John Stewart (inc. pre-calculus quiz at the beginning of the book)
 
 ### Other Resources
 #### Statistics
