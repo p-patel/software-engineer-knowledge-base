@@ -50,6 +50,8 @@ https://tylermcginnis.com/javascript-modules-iifes-commonjs-esmodules/
   - use watches in dev tools
     - https://stackoverflow.com/questions/47127260/debugging-with-console-log-is-there-shorthand-to-output-a-variable-and-its-valu
     - https://developers.google.com/web/tools/chrome-devtools/javascript/watch-variables
+- Functional Programming
+  - https://www.youtube.com/watch?v=sCAR8ZPM6ew&t=1787s
 
 ### OUTPUT: ES5 Demos
 - strict mode
