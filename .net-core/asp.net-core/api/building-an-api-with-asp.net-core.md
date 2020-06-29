@@ -1,5 +1,5 @@
 # Building An API With ASP.NET Core
-https://app.pluralsight.com/library/courses/building-async-api-aspdotnet-core/
+https://app.pluralsight.com/library/courses/building-api-aspdotnet-core/
 
 ## Building Your First API
 - Use `ControllerBase` as controller base class (used for API and MVC controllers)
