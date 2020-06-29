@@ -2,7 +2,7 @@
 https://app.pluralsight.com/library/courses/building-async-api-aspdotnet-core/
 
 ## Building Your First API
-- Use `BaseController` as controller base class (used for API and MVC controllers)
+- Use `ControllerBase` as controller base class (used for API and MVC controllers)
 - Use `[ApiController]` attribute on Controller class
 - Use `Route("api/[controller]")` attribute on Controller class to define the endpoint URI
 - Consider `async` controller actions where appropriate
