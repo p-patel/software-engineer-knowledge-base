@@ -60,13 +60,34 @@ https://app.pluralsight.com/library/courses/oauth-2-getting-started/
 ### Summary
 - Further Reading: RFC 6749 (OAuth 2.0), RFC 6819 (Thread model & security considerations)
 
-## Best Practices for Native Applications
+## Best Practices for Native Apps
 ### Introduction
 - Native - Mobile and Desktop applictions
 - How PKCE can secure public clients
 - Learn best current practices for native apps using OAuth
 
 ### The Unique Issues of Native Apps
+- Implicit Flow is NOT suitable
+
+### Dealing With Stolen Tokens Using PKCE
+- PKCE - RFC 7636
+
+### Not All Browsers Are Created Equal
+- In-App Browser Tab
+- RFC 8525 (OAuth for native apps)
+
+## Best Practices for Browser-based Apps
+### Introduction
+
+### The Security Profile of a Browser-based App
+- public client
+
+## Extending OAuth
+## Introduction
+## OAuth + Identity With OpenID Connect
+- OAuth is not authentication
+
+
 
 
 
