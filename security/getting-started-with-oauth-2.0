@@ -1,0 +1,74 @@
+# Getting Started With OAuth 2.0
+https://app.pluralsight.com/library/courses/oauth-2-getting-started/
+
+## API Security 101
+### Introduction
+
+### A Problem of API Authorizaation
+- Moved from auth on enterprise networks to servers and devices (e.g. phones/IoT) outside of secure enterprise network
+- Past: XML, SOAP, SAML/Web Services
+- Present: JSON, HTTP APIs, OAuth & OpenID Connect
+
+### A Solution: Credential Sharing
+
+## OAuth In Detail
+### Introduction
+- Covers authorisation grant types and applications
+- Covers different ways to receive response data as a client
+
+### Protocol Endpoints
+- 2 Authorisation Server endpoints - Authorisation, Token
+- Secure endpoints with TLS
+- Authorisation endpoint used for user interaction with Resource Owner
+- Token endpoint used for token swap by Client
+
+### What Is a Scope?
+- OAuth scopes
+
+### Authorization Code For Web Apps
+- Suitable for web apps with a secure server-side
+- Code Grant Type
+
+### Implicit Flow for SPAs
+- Implicit Grant Type
+- No explicit client authentication
+- No authorisation grant, access token is returned directly by Authorisation endpoint
+- Security Concerns - access tokens exposed to resource owner; access tokens accessible to 3rd party JavaScript in SPA or access to local browser storage; no validation that access tokens are intended for client (see Open ID Connect for mitigation)
+- CORS + PKCE replaces Implicit Flow
+
+### Demo: Implicit Flow for SPAs
+- Authorisation Request: resopnse_type: token
+
+### Client Credentials for Machines
+- no Resource Owner is involved (for a machine to machine scenario)
+- client authentication grant type
+- client simply requests access token from the Token endpoint
+
+### Resource Owner Password Credentials (ROPC) for No One
+- a stop-gap for legacy (e.g. HTTP basic authentication) applications
+- client must be secure and trusted
+- negates most of the benefits of OAuth 2 (as user credentials are stored in the client)
+- Considered deprecated by OAuth2 - DO NOT USE
+- further reading: scottbrady91.com/OAuth
+
+### Demo: Resource Owner Password Credentials (ROPC) for No One
+- POST to Token endpoint
+
+### Long-lived Access with Refresh Tokens
+
+
+### Summary
+- Further Reading: RFC 6749 (OAuth 2.0), RFC 6819 (Thread model & security considerations)
+
+## Best Practices for Native Applications
+### Introduction
+- Native - Mobile and Desktop applictions
+- How PKCE can secure public clients
+- Learn best current practices for native apps using OAuth
+
+### The Unique Issues of Native Apps
+
+
+
+
+
