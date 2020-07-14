@@ -34,6 +34,8 @@ https://app.pluralsight.com/courses/673bade2-0f11-46db-85f2-2de5f34cef53/table-o
 
 ## Authenticating With Mobile Apps
 ### Mobile App Authentication Basics
-
+- Use MSAL library
+- MSAL manages web views, codes, tokens inc. caching and refreshing
+- MSAL supports brokered apps, debugging support, multiple languages/frameworks support
 
 
