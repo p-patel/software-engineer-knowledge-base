@@ -2,6 +2,7 @@
 https://app.pluralsight.com/courses/673bade2-0f11-46db-85f2-2de5f34cef53/table-of-contents
 
 ## Understanding Azure Active Directory Mobile Apps
+## Introduction
 - Mobile apps using Microsft Active Directory Identities
 - Setting up Azure AD apps
 - Access secure web apis
@@ -10,12 +11,12 @@ https://app.pluralsight.com/courses/673bade2-0f11-46db-85f2-2de5f34cef53/table-o
 - Native logins / resource owner password credentials (ROPC)
 - Mobile app authentication flow and how Azure AD is involved
 
-## Mobile Authentication Flow
+### Mobile Authentication Flow
 - OAuth 2.0 Code Grant flow
 - mobile app, web forms, authorisation endpoint, token endpoint, secure web api
 - app id, scopes, grant token, access token, refresh token
 
-## Mobile Azure AD Concepts
+### Mobile Azure AD Concepts
 - app ids represent an application in Azure AD
 - scopes define permissions for secure applications
 - redirect uris are used by the mobile OS to redirect to app after authentication requests
@@ -26,7 +27,13 @@ https://app.pluralsight.com/courses/673bade2-0f11-46db-85f2-2de5f34cef53/table-o
 - id tokens contain claims (actionable data)
 - access and refresh tokens should be considered opaque and simply passed to the token endpoints / secure resource endpoints
 
-## Creating a Mobile Azure AD Application
+### Creating a Mobile Azure AD Application
 - Create new app registration
 - Select account types (inc. personal Microsoft accounts)
 - Set redirect URIs to MSAL
+
+## Authenticating With Mobile Apps
+### Mobile App Authentication Basics
+
+
+
