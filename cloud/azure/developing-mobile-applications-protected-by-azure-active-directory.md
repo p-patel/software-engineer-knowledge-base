@@ -10,4 +10,7 @@ https://app.pluralsight.com/courses/673bade2-0f11-46db-85f2-2de5f34cef53/table-o
 - Native logins / resource owner password credentials (ROPC)
 - Mobile app authentication flow and how Azure AD is involved
 
-## 
+## Mobile Authentication Flow
+- OAuth 2.0 Code Grant flow
+- mobile app, web forms, authorisation endpoint, token endpoint, secure web api
+- app id, scopes, grant token, access token, refresh token
