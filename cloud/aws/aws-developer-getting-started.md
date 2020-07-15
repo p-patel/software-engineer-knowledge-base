@@ -1,5 +1,5 @@
 # AWS Developer: Getting Started
-- See also AWS Developer: The Big Picture
+- Also see PS course AWS Developer: The Big Picture
 
 ## Welcome to AWS
 ### Introduction
@@ -42,9 +42,24 @@
 - Session cache - Elasticache
 - Save created pizzas - RDS
 
+### Installing Node.js
+- Install Node.js 12
 
+### Install the AWS CLI
+- Install latest AWS CLI (may require restart to update PATH)
+- `aws --version` check installation
 
+### Creating and initialzing an AWS account
+- Create AWS account
+- Create AWS Access Key (can be easily created/deleted)
+- `aws configure` configure AWS CLI with Access Key
+- `aws ec2 describe-instances` test AWS CLI is configured with Amazon account
 
+### Conclusion
+- The AWS development experience
+- The AWS web (of services)
+- AWS Toolbox: Console, CLI, SDK
+- Pizza demo app
+- AWS dev setup
 
-
-
+## Sounding the Alarm with IAM and Cloudwatch
