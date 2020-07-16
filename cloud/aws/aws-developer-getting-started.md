@@ -3,7 +3,7 @@
 
 ## Welcome to AWS
 ### Introduction
--
+- ...
 
 ### Developing in the Cloud
 #### Similarities
@@ -106,5 +106,8 @@
 - Subnet example: private and public subnets, using NAT gateway to configure traffic between subnets
 
 ### Creating a VPC
+- 
 
-
+## Hosting All the Things with S3
+### Introduction
+- 
