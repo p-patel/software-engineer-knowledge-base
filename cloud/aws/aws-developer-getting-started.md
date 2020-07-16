@@ -110,4 +110,5 @@
 
 ## Hosting All the Things with S3
 ### Introduction
-- 
+- S3 using AWS SDK
+- Web app updates to store/retrieve site images from S3
