@@ -63,3 +63,30 @@
 - AWS dev setup
 
 ## Sounding the Alarm with IAM and Cloudwatch
+### Introduction
+
+### Cloudwatch Overview
+- Monitor service resources
+- Use to stop, restart, recover, scale services
+
+### Simple Notfication Service (SNS)
+- Use with Cloudwatch to send alerts by email, SMS
+
+### Creating a CloudWatch Alarm
+- Create a billing alarm to monitor estimated montlhly billing (billing alarms only available in N. Virginia region) and manage AWS costs
+
+### Identity & Access Management Overview
+- ...
+
+### Securing Your Account
+- Enable MFA
+
+### Understanding Policies
+- JSON format - effect, action, resource
+
+
+### Configuring Users and Groups
+- good practices: assign policies to groups and then add users to groups rather than assigning policies directly to users; use least privilege principle
+
+### Conclusion
+- ...
