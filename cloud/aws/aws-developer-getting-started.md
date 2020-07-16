@@ -112,3 +112,31 @@
 ### Introduction
 - S3 using AWS SDK
 - Web app updates to store/retrieve site images from S3
+
+### S3 Overview
+- Store objects in specified region
+- S3 object - file + metadata
+- Buckets store objects and provides a (unique) URL namespace for bucket
+- Object key: <path>/<filename>
+- S3 access with Permissions or IAM Roles
+- Cross-region replication (1 additional region only, otherwise use CloudFront)
+
+### Creating an S3 Bucket
+- Create bucket (unique bucket name)
+- Amazon Policy Generator tool
+- Add Bucket Policy for public access to site assets
+
+### Updating Objects to S3
+- Upload objects using Console, CLI or SDK
+- `aws s3 cp ...`
+
+### Connecting to S3 with Code
+- remove protocol from updated filepaths in source files
+- `s3.putObject()` JS SDK
+
+### Working with CORS in S3
+- Configure CORS on S3 bucket - target resource (S3 bucket) exists on separate origin than web app requesting the resource
+
+### Accessing S3 with EC2
+- EC2 instance needs credentials to access S3 buckets
+- Assign IAM Role at EC2 launch configuration level of AMI instance
