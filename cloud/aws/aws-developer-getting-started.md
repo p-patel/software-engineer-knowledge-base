@@ -206,5 +206,31 @@
 - CloudFront Distribution Behaviours - caching behaviour based on path
 
 ### Edging Your App with CloudFront
+- Create a Distribution, set ELB app as origin
+- Can add origin custom header
+- Customise Object caching
+- Setup cookie forwarding
+- Set Edge Locations
+
+### Configuring a CloudFront Distribution
+- Can add multiple origins to the CloudFront Distribution
+- Configure Cache Behaviour by path patterns
+- Statistics, reports - e.g. cache hits/misses; popular objects
+
+### ElastiCache Overview
+- ElastiCache Cluster
+- Redis/Memcached options
+
+### Configuring a Redis Cluster in ElastiCache
+- 
+
+
+
+
+
+
+
+
+
 
 
