@@ -1,4 +1,6 @@
 # AWS Developer: Getting Started
+https://app.pluralsight.com/library/courses/aws-developer-getting-started/table-of-contents
+
 - Also see PS course AWS Developer: The Big Picture
 
 ## Welcome to AWS
