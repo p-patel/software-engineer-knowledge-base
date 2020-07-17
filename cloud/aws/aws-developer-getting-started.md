@@ -222,8 +222,12 @@
 - Redis/Memcached options
 
 ### Configuring a Redis Cluster in ElastiCache
-- 
+- Create Security Group for ElastiCache cluster (port 6379 and ec2 Security Group)
+- t2.micro instance available in free tier
+- Select VPC to add Redis instance to
+- Select Security Group created above
 
+### Interacting with ElastiCache in Code
 
 
 
