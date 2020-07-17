@@ -162,3 +162,40 @@
 - Get all items -  `.scan()` returns upto 1Mb items at a time, call repeatedly to get all items
 - Running from EC2 - add permissions to ec2 security role to access RDS and DynamoDb, allow access to RDS from EC2 instance by adding to RDS instance security group
 
+## Automate Your App with Elastic Beanstalk and CloudFormation
+
+### CloudFormation Overview
+- provision resources using templates
+- JSON document
+- Stacks - create, update, delete
+- Tools - CloudFormation designer, CloudFormer
+
+### Provisioning Resources with CloudFormation
+- CloudFromation service
+- create, test, delete infrastructure stack
+
+### Elastic Beanstalk Overview
+- automate application deployment - scaling, monitoring, resource provisioning
+- upload code to Elastic Beanstalk - it provisions resources and runs your app
+- EB Application - select a platform, has one or more app versions, contains multiple environments
+
+### Deploying an Application with Elastic Beanstalk
+- Deployment steps;
+  - Manual: upload new code to EC2 instance, create AMI, update Load config, update Auto Scaling Group, terminate out-of-date Instances
+  - ELB: Just upload new code ("plant the beanstalk seed")
+- Create ELB Application, create Environment (web vs. long-running)
+- ELB uses CloudFormation behind-the-scenes
+
+### Configuring an Elastic Beanstalk Env
+- Add RDS, DynamoDB, ElasticBeanstalkWebTier access to EC2 Security Group
+- Allow access to RDS db from EC2 instance Security Group
+- Security changes requires restart of app servers from ELB dashboard
+
+## Speeding Up with CloudFront and ElastiCache
+### Introduction
+- CloudFront and CloutFront distributation
+- Elasticache engine options
+
+### CloudFront Overview
+- 
+
