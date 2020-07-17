@@ -140,3 +140,25 @@
 ### Accessing S3 with EC2
 - EC2 instance needs credentials to access S3 buckets
 - Assign IAM Role at EC2 launch configuration level of AMI instance
+
+
+## A Tale of Two Databases With DynamoDB and RDS
+...
+
+### DynamoDB Overview
+- Non-relational, NoSQL
+- Table -> Items (PK required)
+- Provisioned ThroughPut Capacity (4kb units)
+
+### Deciding Between RDS and DynamoDB
+- Storage (schema) Flexiblity vs Query Flexibility
+- RDS - strict schemas, querying flexibility
+
+### Creating a Table in DynamoDB
+- Create a db with a PK
+
+### Connecting to DynamoDB with Code
+- Using AWS SDK
+- Get all items -  `.scan()` returns upto 1Mb items at a time, call repeatedly to get all items
+- Running from EC2 - add permissions to ec2 security role to access RDS and DynamoDb, allow access to RDS from EC2 instance by adding to RDS instance security group
+
