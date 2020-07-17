@@ -228,8 +228,11 @@
 - Select Security Group created above
 
 ### Interacting with ElastiCache in Code
+- Connect directly to Redis Server from web app
+- Add Elasticache policy to ec2 Security Group
 
-
+### Conclusion
+- CloudFront and ElastiCache can improve app performance
 
 
 
