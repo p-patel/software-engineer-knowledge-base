@@ -197,5 +197,14 @@
 - Elasticache engine options
 
 ### CloudFront Overview
-- 
+- Improve latency
+- Global CDN
+- Auto routes requests to closest CloudFront edge to the user
+- Integrates with EC2, S3, load balancers
+- Edges "Objects" and proxies dynamic content to origin source
+- CloudFront Distribution - a set of content edged with CloudFront (assigned a URL), provides content from one or more origins
+- CloudFront Distribution Behaviours - caching behaviour based on path
+
+### Edging Your App with CloudFront
+
 
