@@ -44,7 +44,16 @@ https://app.pluralsight.com/library/courses/developing-azure-active-directory-b2
 - Config: collect attribute and return claim
 
 ### Testing User Flows
-- 
+- Go to user flow | Run user flow
+
+### Configuring Social Identity Providers
+- Must configure idP and add IdP to B2C
+- Example: Google
+- Identity Providers | Google | configure provider
+- See online Microsoft docs for each provider configuration
+- Enable Google provider
+
+## Authenticate Web App with Azure Active Directory B2C
 
 
 
