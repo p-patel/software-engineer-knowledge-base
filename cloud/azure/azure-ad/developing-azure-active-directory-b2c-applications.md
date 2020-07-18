@@ -37,8 +37,14 @@ https://app.pluralsight.com/library/courses/developing-azure-active-directory-b2
 - App Registrations | New | ...
 - Use https://jwt.ms to debugging Auth Server responses
 
+### Building User Flows
+- Control behaviour - account types to use, attributes collected, MFA, UI customisation, info returned in token
+- User flows reusabled across B2C apps
+- Built-in User Flows: Sign-in/up; profile editing; password reset
+- Config: collect attribute and return claim
 
-
+### Testing User Flows
+- 
 
 
 
