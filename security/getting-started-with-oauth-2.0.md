@@ -90,7 +90,7 @@ https://app.pluralsight.com/library/courses/oauth-2-getting-started/
 ### Choosing the Best Redirect URI
 - The aim is to avoid other apps claiming ownership of URI for their app and accessing all tokens your system is sending to it
 - Use a private (reverse) URI scheme (e.g. com.mydomain.ios/cb) to prove right to URI in case of a name collision with third-party
-- Or register a claimed https scheme that will always return to your application
+- Or register a claimed https scheme in the OS that will always return to your application
 
 
 ### The Security Profile of a Browser-based App
