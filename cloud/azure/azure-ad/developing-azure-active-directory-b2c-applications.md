@@ -74,10 +74,23 @@ https://app.pluralsight.com/library/courses/developing-azure-active-directory-b2
 - Use access token as 'Bearer Token'
 
 ### Customise the UI
+- All User Flows can be customised
+- B2C injects custom code into page - HTML, CSS, JS
+- Self-hosted custom code on site - support CORS and SSL
+- CSS classes - https://msou.co/b2c-css
+- Language customisation (localisation)
+- Company Branding | Configure
+- Page Layouts | Change Page Layout Version to 1.2.0 
+- Can also load self-hosted HTML, CSS, JS and custom language (HTTPS, CORS)
 
+### Summary
+- B2C App workflows
+- Overview of web app and web API flows
+- Real-world demo inc. customisation
 
-
-
+## Implement Azure Active Directory B2C Custom Policies
+### Custom Policies Overview
+- ...
 
 
 
