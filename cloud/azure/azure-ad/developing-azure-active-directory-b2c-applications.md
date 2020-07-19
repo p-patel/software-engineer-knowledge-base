@@ -64,9 +64,16 @@ https://app.pluralsight.com/library/courses/developing-azure-active-directory-b2
 - Configure web app to use OIDC and retrieve Display Name in claim to display logged in user
 
 ### B2C for Web APIs
+- Next step is to use logged in user's access token to access secure resources (e.g. web api) using OAuth 2.0
+- App has id_token and auth code -> Ask B2C for access token -> Access token returned -> Access token sent to web API -> Web API validates access token -> Data returned to client
+- Setup B2C App for web API inc. Scopes, code web API to use B2C App, add some secured business logic
+- Create App Registration and add scopes -> 'Expose an API'
+- Click 'Grant admin consent for Carved Rock' within web app API permissions to grant Web App permission to access Web API
+- Create Client Secret within Web App for use when exchanging Auth Code for Access Token 
+- Update SignUpIn User Flow to return additional claim: Identity Provider Access Token, User's Object ID
+- Use access token as 'Bearer Token'
 
-
-
+### Customise the UI
 
 
 
