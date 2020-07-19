@@ -54,10 +54,16 @@ https://app.pluralsight.com/library/courses/developing-azure-active-directory-b2
 - Enable Google provider
 
 ## Authenticate Web App with Azure Active Directory B2C
+### Azure AD B2C Apps Deep Dive
+- Create B2C app with App Id and Reply URL for every real-world app
+- JWT Tokens - ID token, Access token, Refresh token
 
+### B2C for Web Apps
+- App redirects to B2C policy -> Complete all policy steps -> id_token returned to browser -> id_token posted to B2C App's reply url -> Validated and session cookie set -> Secure page sent to browser
+- Invoke B2C endpoints including policy name
+- Configure web app to use OIDC and retrieve Display Name in claim to display logged in user
 
-
-
+### B2C for Web APIs
 
 
 
