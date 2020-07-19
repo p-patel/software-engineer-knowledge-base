@@ -79,6 +79,20 @@ https://app.pluralsight.com/library/courses/oauth-2-getting-started/
 ## Best Practices for Browser-based Apps
 ### Introduction
 
+### The Unique Issues of Native Apps
+- Native apps (desktop, mobile apps) cannot be trusted to store client secrets and are public clients
+- Implicit Flow's security relies on only the intended client viewing data returned to the Reply URI - this cannot be guaranteed in a native app (any app on a mobile phone can view data posted to the Reply URI)
+
+### Dealing with Stolen Tokens Using PKCE
+- Aim to keep tokens away from other apps on the device
+- Link grant code request to access token request to avoid unauthorised party stealing grant code to generate access tokens
+
+### Choosing the Best Redirect URI
+- The aim is to avoid other apps claiming ownership of URI for their app and accessing all tokens your system is sending to it
+- Use a private (reverse) URI scheme (e.g. com.mydomain.ios/cb) to prove right to URI in case of a name collision with third-party
+- Or register a claimed https scheme that will always return to your application
+
+
 ### The Security Profile of a Browser-based App
 - public client
 
