@@ -1,5 +1,6 @@
 # Getting Started With OAuth 2.0
 https://app.pluralsight.com/library/courses/oauth-2-getting-started/
+https://www.scottbrady91.com/OAuth
 
 ## API Security 101
 ### Introduction
