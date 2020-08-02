@@ -16,3 +16,6 @@ https://app.pluralsight.com/course-player?clipId=239ad4b1-f10c-4349-ad95-0eea507
 - ~25 language keywords
 
 ### Installing Go on Windows
+- Use Windows installer or Chocolatey
+
+### Hello World
