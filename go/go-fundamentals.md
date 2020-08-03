@@ -36,7 +36,7 @@ https://app.pluralsight.com/course-player?clipId=239ad4b1-f10c-4349-ad95-0eea507
 - `import ("fmt" "runtime")`, then `fmt.Println("Hello from", runtime.GOOS)`
 
 ### Running Our First Program
--
+- build and run go app:
 ```
 cd %GOPATH%
 go run hello-world.go
@@ -56,6 +56,13 @@ go run hello-world.go
 - Constants
 
 ### Declaring at the Package Level
-
-
+- variables at the package level must be declared within `var ( )` blocks
+- variable names must start with letter or underscore
+- example:
+```
+var (
+  name, course string
+  module float64
+)
+```
 
