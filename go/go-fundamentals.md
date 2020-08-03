@@ -66,3 +66,13 @@ var (
 )
 ```
 
+### Determining Types
+
+
+
+
+
+
+
+
+
