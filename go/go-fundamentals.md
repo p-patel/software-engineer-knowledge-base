@@ -94,7 +94,14 @@ module = 3.2
 ### Pointers
 - Arguments are passed by value by default
 
+...
 
+
+### Module Summary
+- Reviewing the Docker repo...
+
+## Functions
+...
 
 
 
