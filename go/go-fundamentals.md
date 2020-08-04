@@ -67,8 +67,32 @@ var (
 ```
 
 ### Determining Types
+- reflection using `"reflect"` package and `reflect.TypeOf(<some_variable>)`
+- declaring variables initialised with their default values
+```
+name, course string   // initialised to empty strings
+module float64        // initialised to 0
+```
+- infering variable types at initialisation
+```
+name, course, module = "Nigel", "Docker Deep Dive", 3.2
+```
+- alternative (more readable) form...
+```
+name = "Nigel"
+course = "Docker Deep Dive"
+module = 3.2
+```
+- casting variables for arithmetic
+`c := (int)someInt + someFloat`
 
+### Short Assignment
+- package level variables are available to all functions
+- use `:=` to declare and assign variables within functions. `=` is used for assignment
+- cannot initialise unused *function* variables - will result in a compiler error
 
+### Pointers
+- Arguments are passed by value by default
 
 
 
