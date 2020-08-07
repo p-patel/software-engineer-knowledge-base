@@ -23,6 +23,7 @@ https://www.youtube.com/watch?v=YS4e4q9oBaU
 - bit shifting - `<< x`, `>> x` shift left/right x places
 - floating point types - `float32`, `float64` e.g. `var n float64 = 13.7e72`, `var n float32 - 2.1E14`
 - complex number types - `complex64`, `complex128` e.g. `var n complex64 = 1 + 2i`, `var n complex64 = 2i`, use with `real(n)`, `imag(n)` and `complex(5, 12)` functions
+### Text
 - text types - `string` (UTF-8). **NB. strings are aliases for bytes**, strings are immutable, `+` for string concatenation
 - can convert strings to collection (slice) of bytes using `b := []byte(s)`, lots of functions in Go work with generic byte slices rather than strings
 - `rune` any UTF-32 character (use single-quotes), is an alias for `int32`
