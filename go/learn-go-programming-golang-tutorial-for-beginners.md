@@ -88,6 +88,48 @@ if guess < 1 {
   // do some other stuff here
 }
 ```
+### Switch statements
+- example, switch statements do not 'fall-through' by default
+```
+switch 2 {
+case 1:
+  fmt.Println("one")
+case 1:
+  fmt.Println("two")
+default:
+  fmt.Println("not one or two")
+}
+```
+- compare with a range (cases number be unique, otherwise will cause a compiler error)
+```
+switch 2 {
+case 1, 5, 10:
+  fmt.Println("one, five or ten")
+case 2, 4, 6:
+  fmt.Println("two, four or six")
+default:
+  fmt.Println("another number")
+}
+```
+- switch initialiser (same as in if statements)
+```
+switch i:= 2 + 3; i {
+}
+```
+- tagless syntax (cases can overlap, first match will execute)
+
+- fall-through cases - use `fallthrough`
+
+
+
+
+
+
+
+
+
+
+
 
 
 
