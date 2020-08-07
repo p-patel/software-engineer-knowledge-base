@@ -37,9 +37,57 @@ https://www.youtube.com/watch?v=YS4e4q9oBaU
 - enumerated constants - `iota`, `_`
 - enumerated expressions - using `iota` expressions
 
-
-
-
+## Control Flow
+### If statements
+- simple example (curly braces are **NOT** optional)
+```
+if true {
+  fmt.Println("This test is true")
+}
+```
+- with an initialiser (initialiser is added before the semicolon and the if statement's boolean expression after the semicolon.  Note that the initialised variables are scoped to the if block
+```
+if pop, ok := statePopulations["Florida"]; ok {
+  fmt.Println(pop)
+}
+```
+- comparison example
+```
+if guess < number {
+  fmt.Println("Guess is too low!")
+}
+if guess > number {
+  fmt.Println("Guess is too high")
+}
+if guess == number {
+  fmt.Println("You got it!")
+}
+```
+- logical operators - `||`, `&&`, `!`
+```
+if guess < 1 || guess > 100 {
+  fmt.PrintLn("The guess must be between 1 and 100")
+}
+```
+- short-circuiting - when one condition in a `||` statement returns turn (or one condition in a `&&` statement returns false) the remaining conditions are not checked
+- if, else
+```
+if guess < 1 || guess > 100 {
+  fmt.PrintLn("The guess must be between 1 and 100")
+} else {
+  // do some other stuff here
+}
+```
+- if, else if, else
+```
+if guess < 1 {
+  fmt.PrintLn("The guess must be 1 or greater")
+} else if guess > 100 {
+  fmt.PrintLn("The guess must be 100 or less")
+} else {
+  // do some other stuff here
+}
+```
 
 
 
