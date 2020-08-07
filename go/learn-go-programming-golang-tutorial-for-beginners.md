@@ -16,13 +16,13 @@ https://www.youtube.com/watch?v=YS4e4q9oBaU
 ### Boolean
 - `var n bool = false`
 ### Numerics
-- signed ints - `int8`, `int16`, `int32`, `int64`, unsigned ints - `uint8`/`byte`, `uint16`, `uint32`
+- signed ints - `int`, `int8`, `int16`, `int32`, `int64`, unsigned ints - `uint8`/`byte`, `uint16`, `uint32`
 - both operands of an arithmetic operation must be of the same type
 - arithmetic operations will return result of the same type as operands
 - bit operators - `&` (AND), `|` (OR), `^` (XOR), `&^` (AND NOT aka bit clear)
 - bit shifting - `<< x`, `>> x` shift left/right x places
-- floating point types - `float32`, `float64` e.g. `var n float64 = 13.7e72`, `var n float32 - 2.1E14`
-- complex number types - `complex64`, `complex128` e.g. `var n complex64 = 1 + 2i`, `var n complex64 = 2i`, use with `real(n)`, `imag(n)` and `complex(5, 12)` functions
+- floating point types - IEEE-754 standard `float32`, `float64` e.g. `var n float64 = 13.7e72`, `var n float32 - 2.1E14`
+- complex number types - `complex64` (32-bit real, imaginary parts), `complex128` (64-bit real, imaginary parts) e.g. `var n complex64 = 1 + 2i`, `var n complex64 = 2i`, use with `real(n)`, `imag(n)` and `complex(5, 12)` functions.
 ### Text
 - text types - `string` (UTF-8). **NB. strings are aliases for bytes**, strings are immutable, `+` for string concatenation
 - can convert strings to collection (slice) of bytes using `b := []byte(s)`, lots of functions in Go work with generic byte slices rather than strings
