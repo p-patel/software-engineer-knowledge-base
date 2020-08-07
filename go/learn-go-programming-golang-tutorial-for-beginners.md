@@ -20,7 +20,7 @@ https://www.youtube.com/watch?v=YS4e4q9oBaU
 - both operands of an arithmetic operation must be of the same type
 - arithmetic operations will return result of the same type as operands
 - bit operators - `&` (AND), `|` (OR), `^` (XOR), `&^` (AND NOT aka bit clear)
-- bit shifting - `<< x`, `>> x` shift left/right x places
+- bit shifting - `a << x`, `a >> x` shift a left/right x places
 - floating point types - IEEE-754 standard `float32`, `float64` e.g. `var n float64 = 13.7e72`, `var n float32 - 2.1E14`
 - complex number types - `complex64` (32-bit real, imaginary parts), `complex128` (64-bit real, imaginary parts) e.g. `var n complex64 = 1 + 2i`, `var n complex64 = 2i`, use with `real(n)`, `imag(n)` and `complex(5, 12)` functions.
 ### Text
@@ -28,7 +28,14 @@ https://www.youtube.com/watch?v=YS4e4q9oBaU
 - can convert strings to collection (slice) of bytes using `b := []byte(s)`, lots of functions in Go work with generic byte slices rather than strings
 - `rune` any UTF-32 character (use single-quotes), is an alias for `int32`
 
-
+## Constants
+- naming convention `const myConst int = 42` - no difference in casing to variable names
+- constant values must be calculable at compile-time, e.g. not the result of a function call
+- constants can be shadowed inc. a different type (just like variables)
+- type inference (just like variables)
+- untyped constants in Go will replace the constant value separately in every expression in the program, using appropriate type inference in each expression.  **Therefore the same constant value may be inferred as a `int16` in one expression and a `int64` in another expression**
+- enumerated constants - `iota`, `_`
+- enumerated expressions - using `iota` expressions
 
 
 
