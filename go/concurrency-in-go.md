@@ -32,3 +32,4 @@ Usage:
 - Properties of a pipeline stage:
   - consumes and returns the same type
   - must be reified by the language so that is may be passed around (e.g. funcs in Go)
+- pipeline stages are closely related to functional programming (higher order functions and monads) pipeline stages can be considered a subset of monads
