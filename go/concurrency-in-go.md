@@ -25,3 +25,10 @@ Usage:
 - use the same pattern for sending (channel) goroutine as well as receiving (channel) goutine
 - *if a goroutine is responsible for creating a goroutine, it is also responsible for ensuring it can stop the goroutine* - all techniques build on the foundation of passing a `done` channel
 
+### The or-channel
+- or-channel pattern
+
+### Pipelines
+- Properties of a pipeline stage:
+  - consumes and returns the same type
+  - must be reified by the language so that is may be passed around (e.g. funcs in Go)
