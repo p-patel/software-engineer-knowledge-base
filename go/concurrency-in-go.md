@@ -22,3 +22,6 @@ Usage:
 ### Preventing Goroutine Leaks
 - goroutines are not garbage-collected - don't leave them lying about our process
 - use a `done` channel in child goroutine to signal it to terminate, child goroutine can also communicate successful termination back to parent on a `terminated` channel
+- use the same pattern for sending (channel) goroutine as well as receiving (channel) goutine
+- *if a goroutine is responsible for creating a goroutine, it is also responsible for ensuring it can stop the goroutine* - all techniques build on the foundation of passing a `done` channel
+
