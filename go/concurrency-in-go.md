@@ -20,3 +20,5 @@ Usage:
 - looping infinitely waiting to be stopped
 
 ### Preventing Goroutine Leaks
+- goroutines are not garbage-collected - don't leave them lying about our process
+- use a `done` channel in child goroutine to signal it to terminate, child goroutine can also communicate successful termination back to parent on a `terminated` channel
