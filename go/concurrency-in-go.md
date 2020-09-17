@@ -33,3 +33,18 @@ Usage:
   - consumes and returns the same type
   - must be reified by the language so that is may be passed around (e.g. funcs in Go)
 - pipeline stages are closely related to functional programming (higher order functions and monads) pipeline stages can be considered a subset of monads
+- batch processing vs. stream processing pipeline stages
+
+#### Best Practices for Constructing Pipelines
+- *generator functions* convert a discrete set of values into a stream of data on a channel
+- each stage safely executes concurrently because our inputs and outputs are safe i concurrent contexts
+- two points in this process *must* be preemptable:
+  - creation of the discrete value that is not nearly instantaneous
+  - sending of the discrete value on its channel
+
+#### Some Handy Generators
+...
+
+
+
+
