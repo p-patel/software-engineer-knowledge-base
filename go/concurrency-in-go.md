@@ -27,6 +27,12 @@ Usage:
 
 ### The or-channel
 - or-channel pattern
+...
+
+### Error Handling
+- error handling with multiple concurrent processes
+...
+
 
 ### Pipelines
 - Properties of a pipeline stage:
