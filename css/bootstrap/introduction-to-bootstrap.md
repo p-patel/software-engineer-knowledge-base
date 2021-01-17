@@ -6,4 +6,9 @@ https://app.pluralsight.com/library/courses/bootstrap-introduction/table-of-cont
 - compositional classes
 - convention
 
-## Layout with Bootstrap
+# Layout with Bootstrap
+## Introduction
+- n-column layouts
+
+## Grid Layouts
+- 
