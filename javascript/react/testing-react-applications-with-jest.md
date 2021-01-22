@@ -38,6 +38,52 @@ https://app.pluralsight.com/course-player?courseId=80470d27-55fc-400c-ab36-fe429
 - Both can run asynchronous tests
 - Jest includes spies, snapshot testing and module mocking
 
+### Jest Versions
+- Jest and Jest CLI
+
+### Jest and React - What's the Connection?
+- Jest is a test suite that is recommended by the React
+- Jest is the tool of choice for testing many other applications
+
+### Practical Jest Usage
+- Watcher is triggered by NPM on development start script
+- CI suite runs tests and rejects failings PRs on integration server
+- Devs review coverage reports and CI hooks
+
+### Common Jest Pitfalls
+...
+
+### Summary
+...
+
+## Test Running With Jest
+### Jest Installation
+...
+
+### Jest Installation - Demo
+- install `npm i -g jest-cli`
+- run `jest`
+- install locally `npm install --save jest`
+
+### Running Tests
+- `jest` runs jest CLI
+- add to scripts in package.json:
+`"test: jest`
+
+### Creating Test Files
+- Any files dir `__tests__/*.js` will be attempted to be run by Jest
+- ...also `*.spec.js` and `*.test.js` files
+
+### Jest Globals
+- Describe() and It() globals
+
+### Jest Globals - Demo
+...
+
+### Watching for Changes
+- watch mode - only tests relating to changed files are run
+- Jest detects changes automatically
+- `jest --watch` runs Jest in watch mode
 
 
 
