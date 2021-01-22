@@ -22,3 +22,28 @@ https://app.pluralsight.com/course-player?courseId=80470d27-55fc-400c-ab36-fe429
 ...
 
 ## Introduction to Jest
+### Introduction
+- Jest team includes members from the React team
+
+### The Jest Testing Ecosystem
+- Enzyme is another test tool and can be used with Jest
+- test runner organises tests into "describe" and "it" blocks
+- Jest is built on top of Jasmine and Mocha
+- Jest adds snapshot testing, mocking and other features
+- Jest adds a superior assertion library and CLI
+- Enzyme (from AirBnb) expresses component output as HTML (like React Test Renderer)
+
+### Jest vs. Mocha
+- Both test runners
+- Both can run asynchronous tests
+- Jest includes spies, snapshot testing and module mocking
+
+
+
+
+
+
+
+
+
+
