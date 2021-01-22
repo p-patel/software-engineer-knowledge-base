@@ -11,4 +11,5 @@ https://app.pluralsight.com/library/courses/bootstrap-introduction/table-of-cont
 - n-column layouts
 
 ## Grid Layouts
-- 
+- container div
+- `col-x` classes
