@@ -181,6 +181,11 @@ Approach:
 - Use unit tests to verify methods and properties passed by the container are correct
 - Use snapshots to verify the output of the display component, passing props directly
 
+### React Redux Container Testing Demo
+- Snapshot regression tests Display element of a React Redux component
+- Unit test Container element of the same component
+- Combined, these provide good component coverage
+- assert component state using `const componentState = mapStateToProps(appState, ownProps);`
 
 
 
