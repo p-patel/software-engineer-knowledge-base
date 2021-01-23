@@ -163,8 +163,23 @@ Mocks meet the contract of the mocked object, adding spies into the object's fun
 
 ## Testing Components
 ### Introduction
+- Verify output has not regressed
+- Verify edge/corner cases produce the correct output
+- Verify component side effects occur without generating them
+- Verify user interactions are handled as expected
 
+### Building Testable Components
+- Types of components: with/without lifecycle handlers, with/without internal state, may/may not generate side effects, may get state from arguments or from external dependencies
+- No internal state, no side-effects, no lifecycle hooks = component easier to test
 
+### React Redux and Jest
+- In React Redux, components don't generate side effects
+- Component consists of logical display and container components
+- Components do not have internal state
+Approach:
+- Test Container and Display elements separately
+- Use unit tests to verify methods and properties passed by the container are correct
+- Use snapshots to verify the output of the display component, passing props directly
 
 
 
