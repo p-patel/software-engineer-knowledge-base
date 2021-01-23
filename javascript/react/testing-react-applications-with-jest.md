@@ -75,7 +75,7 @@ https://app.pluralsight.com/course-player?courseId=80470d27-55fc-400c-ab36-fe429
 - ...also `*.spec.js` and `*.test.js` files
 
 ### Jest Globals
-- Describe() and It() globals
+- `Describe()` and `It()` globals
 
 ### Jest Globals - Demo
 ...
@@ -85,11 +85,27 @@ https://app.pluralsight.com/course-player?courseId=80470d27-55fc-400c-ab36-fe429
 - Jest detects changes automatically
 - `jest --watch` runs Jest in watch mode
 
+### Setup and Teardown
+- `BeforeEach()`, `BeforeAll()` and `AfterEach()`, `AfterAll()` globals
 
+### Setup and Teardown - Demo
+...
 
+### Skipping and Isolating Tests
+- `it.only()` to isolate a test
+- `it.skip()` to skip a test
 
-
-
-
-
-
+### Async Testing
+- 3 methods: callback, Promise, async/await
+- callback:
+```
+it("callback test", done => setTimeout(done, 100));
+```
+- Promise:
+```
+it("promise test", () => return new Promise(resolve => setTimeout(1000)));
+```
+- async/await:
+```
+it("async/await test", async () => await delay(100));
+```
