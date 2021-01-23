@@ -128,6 +128,42 @@ Mocks meet the contract of the mocked object, adding spies into the object's fun
 - Convention is to place mocks in a `__mocks__` (dunder) folder next to the mocked module
 - Both NPM and local modules can be mocked
 
+### Mocking - Demo
+- `jest.fn()` - Jest spy function
+- `expect(x).toHaveBeenCalledWith(y)` asserts
+
+### Automatic and Manual Mocking
+- Jest can be configured to generate any required mocks automatically
+- Manual mocks will be automatically be used for NPM modules (but not local modules)
+
+## Snapshot Testing
+### What Is a Snapshot?
+- JSON-based record of component's output
+- Snapshots are committed to the repo with the tests
+
+### How Snapshot Testing Works
+- `expect(tree.toJSON()).toMatchSnapshot();` - on the first call the snapshot it taken, on subsequent calls the component's output is compared to the snapshot
+- render a component as JSON and compare to the saved snapshot
+
+### Snapshot Testing Demo
+- `npm i --save react-test-renderer` - install component renderer
+- `renderer.create(<TagsList tags={['css', 'html', 'go']} />).toJSON();`
+
+### Advantages and Disadvantages of Snapshot Testing
+**Advantages**
+- Quick and easy
+**Disadvantages**
+- Protects only against regression
+
+### Updating Snapshots
+- `jest --update` or `jest -u` updates snapshot
+
+### Updating Snapshots Demo
+...
+
+## Testing Components
+### Introduction
+
 
 
 
