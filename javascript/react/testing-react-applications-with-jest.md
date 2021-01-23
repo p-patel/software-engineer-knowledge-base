@@ -109,3 +109,30 @@ it("promise test", () => return new Promise(resolve => setTimeout(1000)));
 ```
 it("async/await test", async () => await delay(100));
 ```
+
+## Mocking Functions and Modules
+### Why Mocking?
+...
+
+### What Is Mockng?
+...
+
+### The Mocking Process
+Mocks meet the contract of the mocked object, adding spies into the object's function calls
+
+### Mock Functions
+- Implemented as spies - count function calls, load with return values
+
+### Creating Mock Files
+- Appropriately named NPM mocks are loaded automatically
+- Convention is to place mocks in a `__mocks__` (dunder) folder next to the mocked module
+- Both NPM and local modules can be mocked
+
+
+
+
+
+
+
+
+
