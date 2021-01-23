@@ -187,8 +187,8 @@ Approach:
 - Combined, these provide good component coverage
 - assert component state using `const componentState = mapStateToProps(appState, ownProps);`
 
-
-
+### React Redux Display Testing Demo
+- render Display using React Test Renderer and assert html output using `expect(tree.toJSON()).toMatchSnapshot();`
 
 
 
