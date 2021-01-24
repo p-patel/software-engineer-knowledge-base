@@ -12,3 +12,4 @@
 ...
 
 ### Why Redux?
+- most popular JS module for managing state
