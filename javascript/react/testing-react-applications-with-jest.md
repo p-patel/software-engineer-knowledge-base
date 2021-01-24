@@ -190,5 +190,27 @@ Approach:
 ### React Redux Display Testing Demo
 - render Display using React Test Renderer and assert html output using `expect(tree.toJSON()).toMatchSnapshot();`
 
+### React Renderer vs. Enzyme
+React Renderer:
+- Takes a React component and outputs the resulting HTML without a DOM
+- Useful for getting the output HTML of t component for snapshot tesing
+- Built by React team and recommended by the Jest team
+Enzyme:
+- Also takes a React component and outputs the resulting HTML without a DOM
+- From the respected AirBnB team
+- Useful for testing a variety of interactions including click, keyboard input and more
+- Has a variety of open bugs (as of 2018)
 
+### Testing React Components
+- Mock dependencies, then test them
+- Use spies to verify side-effects
+- Refactor logic from lifecycle to services
+- Use snapshots to prevent regression
+- Inject values by writing mocks for services
+- Make stateless components, where possible (for new components and rewriting old components)
 
+### Building a Stateful React Component
+
+### Testing a Stateful React Component
+- using a mock in a test file `jest.mock('../path/to/local/mocked/module');`
+- to import the mocked ssrvice use `const notificationService = require('../path/to/local/mocked/module').default
