@@ -198,6 +198,19 @@ Store api:
 
 ## Connecting React to Redux
 ### Container vs. Presentational Components
+- AKA smart vs. dumb components
+- how things work vs how things look
+- subscribe to Redux state vs read data from props
+- dispatch Redux actions vs. invoke callbacks on props
+
+### React-Redux Introduction
+- companion library for Redux because Redux isn't exclusive to React
+- connects React components to the Redux store
+
+
+
+
+
 
 
 
