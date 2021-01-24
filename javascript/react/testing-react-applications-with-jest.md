@@ -210,7 +210,12 @@ Enzyme:
 - Make stateless components, where possible (for new components and rewriting old components)
 
 ### Building a Stateful React Component
+...
 
 ### Testing a Stateful React Component
 - using a mock in a test file `jest.mock('../path/to/local/mocked/module');`
-- to import the mocked ssrvice use `const notificationService = require('../path/to/local/mocked/module').default
+- to import the service mock use `const notificationService = require('../path/to/local/mocked/module').default`
+
+## Advanced Jest Matchers
+### What Is a Matcher?
+- also known as an assertion or expectation
