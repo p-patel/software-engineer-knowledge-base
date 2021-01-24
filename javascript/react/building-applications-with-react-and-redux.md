@@ -38,6 +38,168 @@ React and Redux course
 - Small (~2kB)
 - Boilerplate vs. "magic" (conventions) trade-off. Less boilerplate than Flux.
 
+## Environment Build
+### Intro
+- Custom React app environment alternative to create-react-app
+Features:
+- Compile JSX
+- Transpile JS
+- Linting
+- Generate index.html
+- Reload on save
+- All with one command!
+Using:
+- Node
+- Webpack
+- Babel
+- ESLint
+- npm scripts
+
+...
+
+## React Component Approaches
+### Intro
+- React component creation approaches
+- Container vs Presentational components
+
+### Four Ways to Create React Components
+- createClass
+- ES class
+- function
+- arrow function
+
+### createClass component
+- `React.creatClass()`
+
+### Class component
+- `class MyComponent extends React.Component { }`
+
+### Function component
+- `function HelloWorld(props) { }`
+
+### Arrow function component
+- `const HelloWorld = (props) => <h1>Hello World</h1>`
+
+### Functional Component Benefits
+- Preferred of class components
+- Easier to understand and more concise
+- Avoid `this` keyword and binding
+- Less transpiled code when run through Babel
+- Enhanced code completion / intellisence
+- Easy to test - given props, assert function returns expected return value
+- Performance (no class instance)
+- Introduction of hooks means classes may be removed in future
+
+### When to Use Class vs. Function Components
+- Before React v16.8, class components have to be used for state, refs and lifecycle methods
+- Since React v16.8 (React Hooks), class components are only needed for `componentDidError` and `getSnapshotBeforeUpdate`
+
+### Container vs Presentation Components
+Container (back-end for the front-end) component:
+- Little or no markup
+- Pass data and actions down
+- Know about Redux
+- Stateful
+- AKA smart, stateful or controller view components
+
+Presentation (front-end) component:
+- Nearly all markup
+- Receives data and actions via props
+- Doesn't know about Redux
+- Often no state
+- Most React app components are Presentation components
+- AKA dumb, stateless or view components
+
+## Initial App Structure
+### Create Home Page
+- convention to put components in `src/components/`
+
+### Create About Page
+- arrow function component
+- `<Link>` configures link to be handle by client-side routing
+
+### Configure App Entry Point
+- configure in index.js
+- Use `<BrowserRouter>` from 'react-router-dom'
+
+### Create App Entry Point
+- set layout in `<App>` component
+
+### Create Header
+- convention to use `src/components/common/` for components that are not specific to a page
+- header navigation
+- use `NavLink` from 'react-router-dom' to create navigation links
+- use `activeStyle` prop to set style for active link
+
+### Create 404 Page
+- create a `PageNotFound` component
+- configure `Switch` and `Route` components to configure a route for `PageNotFound`. Add as the last route meaning if no other route matches, this component will be rendered
+
+## Intro to Redux
+### Intro
+- Managing app data flows with Redux
+
+### Do I Need Redux?
+- React context vs React with Redux
+- Can lift state to a common ancestor and pass data down through components - "prop drilling"
+- Can use React context to extract global data and functions - context.Provider and context.Consumer
+- A centralised store (a client-side db) with Redux.  Cannot change data directly, instead must dispatch actions. Components connected to the store receive the new data and re-render
+
+### When Is Redux Helpful?
+- Complex data flows
+- Inter-component communication between non-parent/child components
+- When there are many actions
+- When using the same data in many places
+- Start with stateful components and lift state as needed, try context or Redux when lifting state gets annoying
+
+### 3 Core Redux Principles
+- A single immutable store
+- Actions trigger changes
+- Reducers return updated state by taking the exiting state and action and returning the new state
+
+### Flux vs. Redux
+...
+
+### Redux Flow Overview
+- React Presentation Component, Actions, Reducers and Store
+- Unidirectional data flow
+
+## Actions, Stores and Reducers
+### Actions
+- In Redux, events are called Actions - plain objects containing a description of an event
+- action object must contain a type property
+- Typically created by Action Creator convenience functions
+
+
+### Store
+- Created using `createStore(reducers)`
+- An app contains a single store
+Store api:
+- `store.dispatch(action)`
+- `store.subscribe(listener)`
+- `store.getState()`
+- `replaceReducer(nextReducer)`
+
+### What Is Immutability?
+...
+
+### Why Immutability?
+...
+
+### Handling Immuability
+...
+
+### Reducers
+
+- Reducers must be pure functions
+- 1 store, multiple reducers
+- all reducers are called on each dispatch, all reducers should return the existing state as the default action
+...
+
+## Connecting React to Redux
+### Container vs. Presentational Components
+
+
 
 
 
