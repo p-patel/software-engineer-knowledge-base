@@ -9,3 +9,6 @@
 
 ## Course Introduction
 ### Introduction
+...
+
+### Why Redux?
