@@ -213,8 +213,10 @@ Enzyme:
 ...
 
 ### Testing a Stateful React Component
-- using a mock in a test file `jest.mock('../path/to/local/mocked/module');`
-- to import the service mock use `const notificationService = require('../path/to/local/mocked/module').default`
+- create local module mock in a `__mocks__` directory next to real module
+- create `__helperFunction()` (dunder prefixed) functions in mock for mock setup functions such as `__setCount()`
+- to use a mock of a local module in a test file, use `jest.mock('../path/to/local/mocked/module');`
+- to import the service mock use `const notificationService = require('../path/to/local/mocked/module').default` (after `jest.mock()` and the `require()` does not get hoisted
 
 ## Advanced Jest Matchers
 ### What Is a Matcher?
