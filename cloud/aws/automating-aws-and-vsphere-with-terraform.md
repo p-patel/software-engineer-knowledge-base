@@ -26,3 +26,30 @@ Benefits of IaC
 
 ### Installing Terraform on Mac with HomeBrew
 ...
+
+## Terraform Constructs
+### Terraform Constructs and Providers
+Constructs:
+- Providers, Resources, Provisioners
+Execution:
+- Plan, Execute, Destroy
+
+- Docs: www.terraform.io/docs/
+
+### Terraform Resources
+- `resource "aws_instance" "pluralsightExample"
+- Component "Provider_Type" "(Terraform) Name"
+
+### Terraform Provisioners and Execution
+- "When a resource is initially created, provisioners can be executed to initialise that resource"
+- Execute some commands in the bare resource that has been created
+Terraform Execution:
+- Plan `terraform plan`
+- Execute `terraform apply`
+- Destroy `terraform destroy`
+
+
+
+
+
+
