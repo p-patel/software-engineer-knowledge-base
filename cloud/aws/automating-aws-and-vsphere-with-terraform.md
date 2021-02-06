@@ -22,6 +22,7 @@ Benefits of IaC
 ### Installing Terraform on Windows
 - Download and copy exe to C:\Apps\terraform
 - Add C:\Apps\terraform to path: `$env:Path += ";C:\Apps\terraform"`
+- Check installation with `terraform -version`
 
 ### Installing Terraform on Mac with HomeBrew
 ...
