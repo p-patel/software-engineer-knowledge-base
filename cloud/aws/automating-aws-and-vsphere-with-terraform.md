@@ -48,8 +48,13 @@ Terraform Execution:
 - Execute `terraform apply`
 - Destroy `terraform destroy`
 
+## Using Terraform with AWS
+### Using the AWS Provider
+- Setup AWS account
+- Create IAM User (with secret key and access key) download and safely store secret key
 
-
-
-
-
+### Provisioning and Destroying AWS EC2 instances with Terraform
+- configure `provider` "aws" and `resource` "aws_instance" in `base.tf`
+- run `terraform plan` and `terraform apply` to provision ec2 instance 
+- add tags to easily identify resources
+- run `terraform destroy` to delete provisioned resources
