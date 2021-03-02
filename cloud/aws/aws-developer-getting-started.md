@@ -102,10 +102,10 @@ https://app.pluralsight.com/library/courses/aws-developer-getting-started/table-
 ### VPC Overview
 - Use VPCs create virtual networks to separate resources from the rest of AWS and public traffic
 - Create upto 5 VPCs per account
-- Use Security Groups to configure access between resources using IP addresses and ports. Comfigure Security Group access for other Security Groups as well as by IP addresses
-- Use Routing Tables and Network Access Control List to control traffic routing and filtering VPC
+- Use Security Groups to configure access between resources using IP addresses and ports. Configure Security Group access for other Security Groups as well as by IP addresses. Attach at the EC2 instance level
+- Use Routing Tables and Network Access Control List to control traffic routing and filtering per VPC
 - Assign resources to subnets within a VPC - has its own CIDR block, Routing Table and Network Access Control List
-- Subnet example: private and public subnets, using NAT gateway to configure traffic between subnets
+- **Subnet example:** private and public subnets, using NAT gateway to configure traffic between subnets. A private subnet will need to use a NAT Gateway on a public subnet for internet access
 
 ### Creating a VPC
 - 
