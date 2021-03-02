@@ -108,7 +108,17 @@ https://app.pluralsight.com/library/courses/aws-developer-getting-started/table-
 - **Subnet example:** private and public subnets, using NAT gateway to configure traffic between subnets. A private subnet will need to use a NAT Gateway on a public subnet for internet access
 
 ### Creating a VPC
-- 
+- **Example:** A VPC to deploy EC2 instance, db and Elasticache instance into. This will be deployed into a VPC with 2 public subnets.  All instances will be launched into one or both of the subnets.
+- VPC Overview: 1 VPC load balancer; Subnet A: EC2, Elasticache, RDS; Subnet 2: EC2; S3 (AWS Service); Dynamo DB (AWS Service)
+- Use Create VPC Wizard (and see VPC Configuration options)
+- Create subnet 'pizza-subnet-a' with CIDR-block 10.0.**0**.0/24
+- Go to Route Table for created VPC | Routes tab
+- Edit Routes | Add Route -> 0.0.0.0/0, Target -> existing Internet Gateway (VPC now has internet access)
+- Will be launching apps using Auto Scaling Group; will need to know how to deploy to mulitple AZs (Availability Zones)
+- A subnet only exists in a single AZ, so will need to create multiple subnets to deploy into more AZs. Create subnet 'pizza-subnet-b' in a different AZ with CIDR-block 10.0.**1**.0/24 to avoid IP address collisions with 'pizza-subnet-a' as both subnets have different IP-ranges
+
+### Elastic Compute Cloud (EC2)
+...
 
 ## Hosting All the Things with S3
 ### Introduction
