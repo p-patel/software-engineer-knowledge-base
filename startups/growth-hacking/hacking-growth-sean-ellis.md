@@ -20,3 +20,12 @@
 
 - Traditional marketing: A study found zero correlation between business growth and marketing spend
 
+- Growth hacking is not
+  - about finding a single silver bullet for growth
+  - only focused on acquiring new customers; but also retain and monetising existing customers
+
+- How the book is organised:
+  - Part 1: The Method - a description of the growth hacking method
+  - Part 2: The Playbook - detailed set of tactics on how to implement the method
+
+## Chapter 2
