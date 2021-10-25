@@ -28,4 +28,4 @@
   - Part 1: The Method - a description of the growth hacking method
   - Part 2: The Playbook - detailed set of tactics on how to implement the method
 
-## Chapter 2
+## Chapter 2 - Determing If Your Product Is "Must-Have"
