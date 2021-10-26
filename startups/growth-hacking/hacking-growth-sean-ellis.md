@@ -29,3 +29,28 @@
   - Part 2: The Playbook - detailed set of tactics on how to implement the method
 
 ## Chapter 2 - Determing If Your Product Is "Must-Have"
+- Must not move into growth push until you know product is "must-have"
+
+- Need to methods to dig into user behaviour to discover core value of product/service
+
+- Establishing what core value is or should be, isn't always about identiying what the key product/service feature is, but may be connecting with the right core market (which may not be the initial market)
+
+- Core product value isn't always what you've built or envisioned as the core value.  It may be something built into the product as an afterthought.  Whatever the case, it is up to the growth team to find out.
+
+- "Love creates growth, not the other way around" - Airbnb growth team
+
+### What's The Aha Moment?
+
+### Efficient Experimentation
+- Experiment with both product and messaging to find the right combination of customer base and feature set you need to pass the must-have threshold
+- Adopt minimum viable test (MVTs) to vet an idea, before investing in a more robust follow-on test or more polished implementation of the concept
+- Keep the experitment velocity high
+- 
+
+
+
+
+
+
+
+
