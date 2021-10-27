@@ -1,4 +1,4 @@
-# My Go Basics
+# My Go Primer
 
 Resources:
 - https://www.amazon.co.uk/Mastering-production-applications-concurrency-structures-ebook/dp/B07WC24RTQ
