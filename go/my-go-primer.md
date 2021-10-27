@@ -6,6 +6,7 @@ Resources:
 
 ## Interfaces
 Literature:
+- https://nathanleclaire.com/blog/2015/10/10/interfaces-and-composition-for-effective-unit-testing-in-golang/
 - https://www.youtube.com/watch?v=W5ud6xPcOGU
 - https://www.alexedwards.net/blog/interfaces-explained
 - https://www.calhoun.io/how-do-interfaces-work-in-go/
