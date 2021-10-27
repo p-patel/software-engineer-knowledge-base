@@ -14,6 +14,9 @@ Exercises:
 - https://dave.dev/blog/2016/07/golang-exercising-pointers-interfaces-functions-and-wrapping/
 - https://gist.github.com/TheMorgz/5f103a2a64bd965e01ecac780ecb0ab8
 
+### Concepts
+- Embedding
+
 ## Panic/Recover
 
 ## Arrays & Slices
