@@ -45,8 +45,13 @@
 - Experiment with both product and messaging to find the right combination of customer base and feature set you need to pass the must-have threshold
 - Adopt minimum viable test (MVTs) to vet an idea, before investing in a more robust follow-on test or more polished implementation of the concept
 - Keep the experitment velocity high
-- 
 
+## Chapter 3 - Identifying Your Growth Levers
+
+### The Metrics That Matter
+- Identify a company's *fundamental growth equation*
+- The way to determine your essential metrics is to identify the actions that correlate most directly to users experiencing the core value of your product
+- You want to track, at a minimum, the metrics for each of the steps users must take to reach the aha moment and how often they are taking those steps
 
 
 
