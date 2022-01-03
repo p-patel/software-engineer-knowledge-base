@@ -91,9 +91,15 @@ Course will cover:
 - Uses a prerelease identifier: `v0.0.0-<timestamp>-<commit hash>
 
 ## Module Queries
+- Specific version: `@v1.7.2`
+- Version prefix: `@v1`
+- Latest: `@latest`
+- Specific commit: `@c956192`
+- Specific commit: `@master`
+- Comparison: `@>=1.7.2`
 
+- Comparison Rules:
+  - Closest version (not greatest/latest) match wins. This is provide reproducible builds
+  - Preleases have lower precedence (e.g. `v1.7.2` > `v2.0.0-alpha`)
 
-
-
-
-
+## Demo: Module Queries
