@@ -59,7 +59,7 @@ Course will cover:
 ## Introduction
 - Uses strict Semantic versioning
 
-## Review of Semantic Versionions
+## Review of Semantic Versions
 - `v1.5.3-pre1`
 - `v` version prefix (required)
 - `1` Major revision (likely to break backward compatibility)
@@ -68,3 +68,24 @@ Course will cover:
 - `pre1` Pre-release (text is arbitrary but alphabetically ordered)
 
 ## Module Versioning Rules
+- Three sets of rules:
+  - Version 1 and earlier
+  - Version 2+
+  - Unversioned modules (modules that do not adopt Semantic Versionining)
+
+## Versioning Rules: v1 and Earlier
+- No promise of backward compatibility prior to v1.0.0
+- Version precedence determined by major, minor then patch versions
+
+## Versioning Rules: v2 and Beyond
+- Backward compatibility should be preserved within a major version from v1.0.0
+- Each major version has unique import path
+- `import github.com/gorilla/mux/v2`
+
+## Demo: Versioning Rules
+- Demo using rsc.io/quote
+
+
+
+
+
