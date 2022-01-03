@@ -35,6 +35,7 @@ Course will cover:
 
 ## Retrieving Dependencies
 - use `go get -u github.com/gorilla/mux` which will update `go.mod` and create `go.sum` file
+- `go get` includes support for specifying module version
 - imported modules are not created within our project directory structure.  Go downloads and caches dependencies outside of our project's directory
 - `// indirect` dependencies are modules that are not directly used within our module
 
@@ -51,3 +52,19 @@ Course will cover:
 - `go build` will NOT remove unused module dependencies
 - use `go mod tidy` to remove unused module dependencies
 
+## Summary
+- Continue to use existing tools which have been updated to support modules
+
+# Advanced Module Management Tools
+## Introduction
+- Uses strict Semantic versioning
+
+## Review of Semantic Versionions
+- `v1.5.3-pre1`
+- `v` version prefix (required)
+- `1` Major revision (likely to break backward compatibility)
+- `5` Minor revision (new features, doesn't break backward compatibility)
+- `3` Patch (bug fixes, no new features and doesn't break backward compatibility)
+- `pre1` Pre-release (text is arbitrary but alphabetically ordered)
+
+## Module Versioning Rules
