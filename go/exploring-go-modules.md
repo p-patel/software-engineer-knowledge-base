@@ -84,6 +84,14 @@ Course will cover:
 
 ## Demo: Versioning Rules
 - Demo using rsc.io/quote
+- NB. Handling of `/v3` subdirectory in Github repo to allow maintainer to maintain multiple versions concurrently
+
+## Versioning Rules: Unversioned Commits
+- Still uses semver
+- Uses a prerelease identifier: `v0.0.0-<timestamp>-<commit hash>
+
+## Module Queries
+
 
 
 
