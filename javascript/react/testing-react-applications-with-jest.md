@@ -152,6 +152,7 @@ Mocks meet the contract of the mocked object, adding spies into the object's fun
 ### Advantages and Disadvantages of Snapshot Testing
 **Advantages**
 - Quick and easy
+
 **Disadvantages**
 - Protects only against regression
 
