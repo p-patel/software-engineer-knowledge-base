@@ -239,7 +239,14 @@ Enzyme:
 - example: `expect(value).toEqual(42);`
 
 ### Exploring Matchers
+- See Jest docs for full list of matchers
+- `Not` matcher
+- `ToBe` and `ToEqual` matchers
+- `ToBeCloseTo`
+  - There is no separate integer type so 1 and 1.0 are the same value
+- `ToContain` and `ToHaveLength`
 
+### Jest Matchers Demo
 
 
 
