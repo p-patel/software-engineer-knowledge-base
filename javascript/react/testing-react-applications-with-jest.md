@@ -223,6 +223,24 @@ Enzyme:
 - to import the service mock use `const notificationService = require('../path/to/local/mocked/module').default` (after `jest.mock()` and the `require()` does not get hoisted
 - after importing the service mock use `__setCount()` to setup mock as part of Jest test setup
 
+### Summary
+- React Test Renderer recommended over Enzyme
+- Testing stateless React components is easy with Jest
+  - Container vs Display components
+- Testing stateful React components requires more effort with Jest
+  - Side effects must be verified by mocking called APIs
+  - Mock component dependencies and configure to setup component in required state for test case
+
 ## Advanced Jest Matchers
 ### What Is a Matcher?
-- also known as an assertion or expectation
+- also known as an *assertion* or *expectation*
+- represents a claim that a value will be equal (ot not) to something
+- throws an error (test fails) if matcher's claim is not validated
+- example: `expect(value).toEqual(42);`
+
+### Exploring Matchers
+
+
+
+
+
