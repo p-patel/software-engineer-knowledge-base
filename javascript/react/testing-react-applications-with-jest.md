@@ -192,6 +192,7 @@ Approach:
 - render Display using React Test Renderer and assert html output using `expect(tree.toJSON()).toMatchSnapshot();`
 
 ### React Renderer vs. Enzyme
+Two options for component rendering
 React Renderer:
 - Takes a React component and outputs the resulting HTML without a DOM
 - Useful for getting the output HTML of t component for snapshot tesing
@@ -202,9 +203,11 @@ Enzyme:
 - Useful for testing a variety of interactions including click, keyboard input and more
 - Has a variety of open bugs (as of 2018)
 
-### Testing React Components
+### Testing Stateful React Components
+- Stateful components 
+- Mocks required for stateful React components
 - Mock dependencies, then test them
-- Use spies to verify side-effects
+- Use spies to verify side-effects (replace things like outbound requests with spies)
 - Refactor logic from lifecycle to services
 - Use snapshots to prevent regression
 - Inject values by writing mocks for services
@@ -216,8 +219,9 @@ Enzyme:
 ### Testing a Stateful React Component
 - create local module mock in a `__mocks__` directory next to real module
 - create `__helperFunction()` (dunder prefixed) functions in mock for mock setup functions such as `__setCount()`
-- to use a mock of a local module in a test file, use `jest.mock('../path/to/local/mocked/module');`
+- to use a mock of a local module in a test file, use `jest.mock('../path/to/local/mocked/module');` in the test file after `import` statements
 - to import the service mock use `const notificationService = require('../path/to/local/mocked/module').default` (after `jest.mock()` and the `require()` does not get hoisted
+- after importing the service mock use `__setCount()` to setup mock as part of Jest test setup
 
 ## Advanced Jest Matchers
 ### What Is a Matcher?
