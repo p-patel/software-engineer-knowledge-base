@@ -81,7 +81,7 @@ Using:
 - `const HelloWorld = (props) => <h1>Hello World</h1>`
 
 ### Functional Component Benefits
-- Preferred of class components
+- Preferred over class components
 - Easier to understand and more concise
 - Avoid `this` keyword and binding
 - Less transpiled code when run through Babel
