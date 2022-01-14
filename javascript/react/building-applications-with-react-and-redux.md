@@ -169,7 +169,7 @@ Presentation (front-end) component:
 - In Redux, events are called Actions - plain objects containing a description of an event
 - action object must contain a type property
 - Typically created by Action Creator convenience functions
-
+- Handled by a reducer
 
 ### Store
 - Created using `createStore(reducers)`
@@ -194,6 +194,7 @@ Store api:
 - Reducers must be pure functions
 - 1 store, multiple reducers
 - all reducers are called on each dispatch, all reducers should return the existing state as the default action
+- a reducer returns a new state based on the action passed to it
 ...
 
 ## Connecting React to Redux
