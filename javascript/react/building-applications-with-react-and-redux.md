@@ -172,29 +172,37 @@ Presentation (front-end) component:
 - Handled by a reducer
 
 ### Store
-- Created using `createStore(reducers)`
+- Created using `let store = createStore(reducer)`
 - An app contains a single store
 Store api:
 - `store.dispatch(action)`
 - `store.subscribe(listener)`
 - `store.getState()`
 - `replaceReducer(nextReducer)`
-
+- no action to change state directly, you must dispatch an action instead
 ### What Is Immutability?
 ...
 
 ### Why Immutability?
-...
+- Clarity - state is only changed in the reducer
+- Performance - no need for object property-by-property check for changes; instead if previous state reference is different to the current state then the state must have changed.
+- dev tools - time-travel debugging
 
-### Handling Immuability
-...
+### Handling Immutability
+#### Enforce immutability
+- trust
+- warning/detect - `redux-immutable-state-invariant` package (in dev environments only)
+- enforce - immer, immutable.js, seamless-immutable libraries
 
 ### Reducers
-
+- `(state, action) => new_state`
 - Reducers must be pure functions
 - 1 store, multiple reducers
+- slices of the store's state changes can be managed by multiple reducers
+- each reducer is actually only passed the slice of state that it is responsible for
 - all reducers are called on each dispatch, all reducers should return the existing state as the default action
 - a reducer returns a new state based on the action passed to it
+- "reducer compositon": Each action can be handled by multiple reducers. Each reducer can handle multiple actions.
 ...
 
 ## Connecting React to Redux
