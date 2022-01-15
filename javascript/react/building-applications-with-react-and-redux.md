@@ -206,15 +206,23 @@ Store api:
 ...
 
 ## Connecting React to Redux
+### Intro
+#### React-Redux
+- Provider - component wraps application so that the Redux store is available
+- Connect - functions used to connect props and actions to your component
+- "A Chat With Redux" model to understand how Redux works
 ### Container vs. Presentational Components
-- AKA smart vs. dumb components
-- how things work vs how things look
-- subscribe to Redux state vs read data from props
+- aka smart vs. dumb components
+- how things work vs. how things look
+- aware of Redux vs. unaware of Redux
+- subscribe to Redux state vs. read data from props
 - dispatch Redux actions vs. invoke callbacks on props
 
 ### React-Redux Introduction
-- companion library for Redux because Redux isn't exclusive to React
+- `react-redux` companion library for Redux because Redux isn't exclusive to React
 - connects React components to the Redux store
+  - `Provider` component - attaches app to store (uses React's context)
+  - `Connect` function - creates Presentation components
 
 
 
